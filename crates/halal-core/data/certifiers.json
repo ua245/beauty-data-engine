@@ -1,0 +1,182 @@
+{
+  "version": "2026.07-sample",
+  "bodies": [
+    {
+      "id": "ifanca",
+      "name": "Islamic Food and Nutrition Council of America",
+      "short_name": "IFANCA",
+      "country": "United States",
+      "website": "https://ifanca.org/",
+      "directory_url": "https://ifanca.org/halal-certified-products/",
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "food", "beverages", "pharmaceutical", "chemical-ingredients"],
+      "recognitions": [
+        {
+          "authority": "jakim",
+          "scopes": ["cosmetics", "personal-care", "food"],
+          "valid_until": "2027-08-28",
+          "source_url": "https://myehalal.halal.gov.my/portal-halal/v1/pdf/cb/FHCB29082025latest.pdf"
+        },
+        {
+          "authority": "bpjph",
+          "scopes": ["cosmetics", "food", "chemical-ingredients"],
+          "valid_until": "2027-12-31",
+          "source_url": "http://app.halal.go.id/dashboard/html/lhlnlist"
+        }
+      ],
+      "certificate_number_hint": "Document number in the form `MAR 23823 23824 250001 US`, with the Crescent-M mark",
+      "notes": "Product search is a web form with no API. ANSI accreditation covers cosmetics and halal personal care. Recognition rows must be re-verified against the JAKIM gazette and the BPJPH LHLN list, which both expire and are periodically withdrawn."
+    },
+    {
+      "id": "hce",
+      "name": "Halal Certification Europe",
+      "short_name": "HCE",
+      "country": "United Kingdom",
+      "website": "https://halalce.com/",
+      "directory_url": null,
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "fragrance", "food", "beverages", "pharmaceutical"],
+      "recognitions": [
+        {
+          "authority": "jakim",
+          "scopes": ["cosmetics", "personal-care", "food"],
+          "valid_until": "2027-08-28",
+          "source_url": "https://myehalal.halal.gov.my/portal-halal/v1/pdf/cb/FHCB29082025latest.pdf"
+        },
+        {
+          "authority": "moiat",
+          "scopes": ["cosmetics", "personal-care", "food"],
+          "valid_until": "2027-06-30",
+          "source_url": "https://moiat.gov.ae/en/programs/halal/registered-halal-certification-bodies"
+        }
+      ],
+      "certificate_number_hint": "Certificate number in the form `21633-1/2/2/Y1` with issue and expiry dates and a product annex",
+      "notes": "UK body that explicitly certifies cosmetics. No public searchable register was found, so verification is certificate-by-certificate. Recognition claims are published by HCE itself and must be confirmed against each regulator's current list."
+    },
+    {
+      "id": "hfa",
+      "name": "Halal Food Authority",
+      "short_name": "HFA",
+      "country": "United Kingdom",
+      "website": "https://halalfoodauthority.com/",
+      "directory_url": null,
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "food", "pharmaceutical", "chemical-ingredients"],
+      "recognitions": [],
+      "certificate_number_hint": "HFA registered mark plus a contractual certificate; no public verification portal",
+      "notes": "Certifies cosmetics, chemicals and aromas alongside food. Maintains an internal approved-manufacturer list that is not published as open data, so claims can only reach the document-checked rung."
+    },
+    {
+      "id": "hmc",
+      "name": "Halal Monitoring Committee",
+      "short_name": "HMC",
+      "country": "United Kingdom",
+      "website": "https://halalhmc.org/",
+      "directory_url": "https://halalhmc.org/outlets/",
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "food", "pharmaceutical", "slaughtering"],
+      "recognitions": [],
+      "certificate_number_hint": "Annual certificate plus HMC labels; premises carry a numbered sticker",
+      "notes": "Certifies non-meat consumables including cosmetics. The public directory lists premises rather than products. HMC states explicitly that it does not verify water-permeability claims, so an HMC certificate says nothing about ablution suitability."
+    },
+    {
+      "id": "lppom-mui",
+      "name": "LPPOM MUI (Indonesian Council of Ulama assessment institute)",
+      "short_name": "LPPOM MUI",
+      "country": "Indonesia",
+      "website": "https://halalmui.org/",
+      "directory_url": "https://halalmui.org/",
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "food", "beverages", "chemical-ingredients"],
+      "recognitions": [],
+      "certificate_number_hint": "Legacy MUI certificate numbers; since October 2019 LPPOM acts as an inspection body and BPJPH issues the certificate",
+      "notes": "Authority to issue Indonesian halal certificates moved to BPJPH in October 2019 under Law 33/2014. LPPOM MUI is now a halal inspection body and MUI retains the fatwa role. Legacy certificates remain valid until expiry, so both must be modelled."
+    },
+    {
+      "id": "bpjph",
+      "name": "Badan Penyelenggara Jaminan Produk Halal",
+      "short_name": "BPJPH",
+      "country": "Indonesia",
+      "website": "https://bpjph.halal.go.id/",
+      "directory_url": "https://info.halal.go.id/cari/",
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "fragrance", "food", "beverages", "chemical-ingredients", "slaughtering", "logistics"],
+      "recognitions": [
+        {
+          "authority": "smiic",
+          "scopes": ["cosmetics", "food"],
+          "valid_until": "2029-12-31",
+          "source_url": "https://smiic.org/en/project/30"
+        }
+      ],
+      "certificate_number_hint": "BPJPH halal certificate plus the Indonesian halal label; foreign certificates need SHLN registration under Decree 221/2025",
+      "notes": "The Indonesian regulator. Its public `cek halal` product search is the strongest verification surface available for Indonesian-market products, and its LHLN list records which foreign bodies are recognised per scope. Cosmetics fall under the mandatory certification deadline of 17 October 2026."
+    },
+    {
+      "id": "jakim",
+      "name": "Jabatan Kemajuan Islam Malaysia",
+      "short_name": "JAKIM",
+      "country": "Malaysia",
+      "website": "https://www.halal.gov.my/",
+      "directory_url": "https://myehalal.halal.gov.my/portal-halal/v1/index.php",
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "fragrance", "food", "beverages", "pharmaceutical", "slaughtering", "logistics"],
+      "recognitions": [
+        {
+          "authority": "smiic",
+          "scopes": ["cosmetics", "food"],
+          "valid_until": "2029-12-31",
+          "source_url": "https://smiic.org/en/project/30"
+        }
+      ],
+      "certificate_number_hint": "Sijil Pengesahan Halal Malaysia (SPHM) number, verifiable by QR through the Verify Halal app",
+      "notes": "Malaysian regulator. Its MYeHALAL portal verifies certificates under the category `Kosmetik dan Dandanan Diri`, and it gazettes recognised foreign bodies for two-year terms. MS 2634:2019 is the current Malaysian halal cosmetics standard, replacing MS 2200-1:2008."
+    },
+    {
+      "id": "afic",
+      "name": "Australian Federation of Islamic Councils",
+      "short_name": "AFIC",
+      "country": "Australia",
+      "website": "https://afic.com.au/",
+      "directory_url": "https://afic.com.au/certification/",
+      "machine_readable_directory": false,
+      "scopes": ["food", "slaughtering"],
+      "recognitions": [],
+      "certificate_number_hint": "Site certification; certificate identifiers are not published for cosmetics",
+      "notes": "AFIC's published certification programme is site-based and oriented to food and slaughter. Cosmetics scope could not be confirmed from its own pages, so the register deliberately records no beauty scope. A cosmetics claim naming AFIC therefore resolves to `certifier does not cover cosmetics` until that is evidenced, which is the honest outcome."
+    },
+    {
+      "id": "moiat",
+      "name": "Ministry of Industry and Advanced Technology, UAE",
+      "short_name": "MOIAT",
+      "country": "United Arab Emirates",
+      "website": "https://moiat.gov.ae/en/programs/halal",
+      "directory_url": "https://moiat.gov.ae/en/programs/halal/registered-halal-certification-bodies",
+      "machine_readable_directory": false,
+      "scopes": ["cosmetics", "personal-care", "fragrance", "food", "chemical-ingredients"],
+      "recognitions": [
+        {
+          "authority": "smiic",
+          "scopes": ["cosmetics"],
+          "valid_until": "2029-12-31",
+          "source_url": "https://www.gso.org.sa/store/standards/GSO:792184/GSO%202055-4:2021"
+        }
+      ],
+      "certificate_number_hint": "UAE Halal National Mark; product certificates are issued by MOIAT-registered bodies, not by the ministry",
+      "notes": "Successor to ESMA for the UAE halal programme. GSO 2055-4:2021 / UAE.S 2055-4 is the cosmetics and personal care halal standard. MOIAT registers certification bodies with scope letters, where scope N is cosmetics."
+    },
+    {
+      "id": "hak",
+      "name": "Halal Accreditation Agency (Helal Akreditasyon Kurumu)",
+      "short_name": "HAK",
+      "country": "Türkiye",
+      "website": "https://english.hak.gov.tr/",
+      "directory_url": "https://english.hak.gov.tr/accredited-hcabs",
+      "machine_readable_directory": false,
+      "scopes": [],
+      "recognitions": [],
+      "certificate_number_hint": "Accreditation numbers such as `2019-001`; HAK does not issue product certificates",
+      "notes": "An accreditation body, not a certification body. A product claiming to be `HAK certified` is misdescribed: the certificate must come from a HAK-accredited body, whose scope may include OIC/SMIIC 4:2018 for cosmetics. Modelled with no product scopes so that such claims fail the scope check by design."
+    }
+  ]
+}
