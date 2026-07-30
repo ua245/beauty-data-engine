@@ -1,0 +1,4443 @@
+{
+  "version": "2026.07-sample",
+  "generated_at": "2026-07-30T19:20:37.519106478Z",
+  "profile": "uk-general",
+  "products": [
+    {
+      "product": {
+        "id": "boots:12345678",
+        "name": "No7 Lift & Luminate Triple Action Serum",
+        "brand": "No7",
+        "manufacturer": "The Boots Company PLC",
+        "retailer": {
+          "id": "boots",
+          "name": "Boots",
+          "domain": "boots.com"
+        },
+        "retailer_sku": "12345678",
+        "url": "https://www.boots.com/no7-lift-luminate-triple-action-serum-10123456",
+        "gtin": "5052191234567",
+        "size": "30ml",
+        "price": {
+          "minor_units": 3499,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1620916560428-7fe1343c76fe?w=400",
+          "alt": "No7 serum bottle",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "skincare",
+          "category_id": "skincare-treatments",
+          "product_type_id": "face-serum",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Skincare",
+          "Serums",
+          "Face Serum"
+        ],
+        "ingredients_raw": "Aqua, Glycerin, Dimethicone, Niacinamide, Sodium Hyaluronate, Cetearyl Alcohol, Stearic Acid, Phenoxyethanol, Parfum, Citric Acid.",
+        "claims": [
+          "cruelty-free"
+        ],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "needs-verification",
+        "likelihood": 62,
+        "confidence": 75,
+        "wudu": "no-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Glycerin",
+            "normalised": "GLYCERIN",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "glycerin",
+            "rule_label": "Glycerin",
+            "origin": "ambiguous",
+            "concern": "A by-product of soap and biodiesel manufacture. Vegetable and synthetic glycerin dominate the European market, but tallow-derived glycerin is traded under the same INCI name.",
+            "residual_risk": 0.18,
+            "risk_family": "fatty-chain",
+            "cosing": {
+              "inci_name": "GLYCERIN",
+              "cas_number": "56-81-5",
+              "ec_number": "200-289-5",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Dimethicone",
+            "normalised": "DIMETHICONE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "silicones",
+            "rule_label": "Silicones",
+            "origin": "synthetic",
+            "concern": "Silicon-based polymers with no animal route. They repel water, so they matter to the ablution question even though the halal status itself is clear.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Niacinamide",
+            "normalised": "NIACINAMIDE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "vitamins-synthetic",
+            "rule_label": "Commonly synthetic vitamins and actives",
+            "origin": "synthetic",
+            "concern": "Synthesised or fermentation-derived actives. Allantoin and urea are listed explicitly because both have obsolete animal-origin reputations.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Sodium Hyaluronate",
+            "normalised": "SODIUM HYALURONATE",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "hyaluronic-acid",
+            "rule_label": "Hyaluronic acid",
+            "origin": "microbial",
+            "concern": "Almost all commercial supply is now bacterial fermentation. Extraction from rooster comb persists in a small part of the market.",
+            "residual_risk": 0.08,
+            "risk_family": "biotech-polymer",
+            "cosing": {
+              "inci_name": "SODIUM HYALURONATE",
+              "cas_number": "9067-32-7",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Cetearyl Alcohol",
+            "normalised": "CETEARYL ALCOHOL",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "fatty-alcohol",
+            "rule_label": "Fatty alcohols (cetyl, stearyl, cetearyl)",
+            "origin": "ambiguous",
+            "concern": "Waxy emollients, not intoxicants, despite the word alcohol. EU supply is overwhelmingly palm or coconut, with a small tallow-derived share.",
+            "residual_risk": 0.12,
+            "risk_family": "fatty-chain",
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Stearic Acid",
+            "normalised": "STEARIC ACID",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "stearic-acid",
+            "rule_label": "Stearic acid",
+            "origin": "ambiguous",
+            "concern": "Fatty acids obtained from palm, coconut or animal fat. The INCI name is identical whichever feedstock is used.",
+            "residual_risk": 0.25,
+            "risk_family": "fatty-chain",
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "Phenoxyethanol",
+            "normalised": "PHENOXYETHANOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "benign-alcohols",
+            "rule_label": "Benzyl and phenoxy alcohols",
+            "origin": "synthetic",
+            "concern": "Aromatic and isopropyl alcohols used as preservatives and solvents. Not intoxicants and not derived from khamr, so the word alcohol in the name is not itself a concern.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 8,
+            "raw": "Parfum",
+            "normalised": "PARFUM",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "parfum",
+            "rule_label": "Parfum / Fragrance (undisclosed mixture)",
+            "origin": "ambiguous",
+            "concern": "Article 19 lets a whole fragrance mixture be declared under one word. That mixture can legally contain ethanol as a carrier and animal-derived notes such as civet or natural musk, none of which appear on the label.",
+            "residual_risk": 0.1,
+            "risk_family": "fragrance",
+            "wudu_barrier": false
+          },
+          {
+            "position": 9,
+            "raw": "Citric Acid.",
+            "normalised": "CITRIC ACID",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "preservatives",
+            "rule_label": "Preservatives and chelators",
+            "origin": "synthetic",
+            "concern": "Annex V preservatives and standard pH and chelating agents, all synthetic.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "The fragrance is declared as a single umbrella term, so ethanol carriers and animal-derived notes inside it are not visible on the label."
+          }
+        ],
+        "drivers": [
+          "Stearic acid",
+          "Glycerin",
+          "Fatty alcohols (cetyl, stearyl, cetearyl)",
+          "Parfum / Fragrance (undisclosed mixture)",
+          "Hyaluronic acid"
+        ],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "superdrug:987654",
+        "name": "Sleek MakeUP True Colour Lipstick — Ruby",
+        "brand": "Sleek MakeUP",
+        "retailer": {
+          "id": "superdrug",
+          "name": "Superdrug",
+          "domain": "superdrug.com"
+        },
+        "retailer_sku": "987654",
+        "url": "https://www.superdrug.com/sleek-makeup-true-colour-lipstick-ruby/p/987654",
+        "gtin": "5055998765432",
+        "shade": "Ruby",
+        "size": "3.7g",
+        "price": {
+          "minor_units": 599,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1586495777744-4413f210eafc?w=400",
+          "alt": "Red lipstick",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "make-up",
+          "category_id": "lip-make-up",
+          "product_type_id": "lipstick",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Make-up",
+          "Lips",
+          "Lipstick"
+        ],
+        "ingredients_raw": "Ricinus Communis Seed Oil, Mica, Candelilla Wax, Carnauba Wax, Talc, CI 77491, CI 77492, CI 75470, Parfum.",
+        "claims": [],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "not-permissible",
+        "likelihood": 0,
+        "confidence": 75,
+        "wudu": "possible-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Ricinus Communis Seed Oil",
+            "normalised": "RICINUS COMMUNIS SEED OIL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "castor-oil",
+            "rule_label": "Castor oil",
+            "origin": "plant",
+            "concern": "Pressed from castor beans. Included as an explicit rule so it is never confused with castoreum.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Mica",
+            "normalised": "MICA",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Candelilla Wax",
+            "normalised": "CANDELILLA WAX",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "waxes-plant",
+            "rule_label": "Plant and synthetic waxes",
+            "origin": "plant",
+            "concern": "Botanical and petroleum waxes routinely used as beeswax replacements.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Carnauba Wax",
+            "normalised": "CARNAUBA WAX",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "waxes-plant",
+            "rule_label": "Plant and synthetic waxes",
+            "origin": "plant",
+            "concern": "Botanical and petroleum waxes routinely used as beeswax replacements.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Talc",
+            "normalised": "TALC",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "CI 77491",
+            "normalised": "CI 77491",
+            "ci_number": "77491",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "CI 77492",
+            "normalised": "CI 77492",
+            "ci_number": "77492",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "CI 75470",
+            "normalised": "CI 75470",
+            "ci_number": "75470",
+            "may_contain": false,
+            "status": "haram",
+            "rule_id": "carmine",
+            "rule_label": "Carmine (cochineal insect extract)",
+            "origin": "animal-insect",
+            "concern": "A red pigment extracted from crushed cochineal insects. There is no plant or synthetic version sold under this INCI name, so the presence of the name settles the source.",
+            "residual_risk": 0.0,
+            "risk_family": "insect-colour",
+            "cosing": {
+              "inci_name": "CI 75470",
+              "cas_number": "1260-17-9",
+              "functions": [
+                "COLOUR"
+              ],
+              "annex_reference": "IV/115"
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 8,
+            "raw": "Parfum.",
+            "normalised": "PARFUM",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "parfum",
+            "rule_label": "Parfum / Fragrance (undisclosed mixture)",
+            "origin": "ambiguous",
+            "concern": "Article 19 lets a whole fragrance mixture be declared under one word. That mixture can legally contain ethanol as a carrier and animal-derived notes such as civet or natural musk, none of which appear on the label.",
+            "residual_risk": 0.1,
+            "risk_family": "fragrance",
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "The fragrance is declared as a single umbrella term, so ethanol carriers and animal-derived notes inside it are not visible on the label."
+          },
+          {
+            "severity": "blocker",
+            "message": "Carmine (cochineal insect extract) — A red pigment extracted from crushed cochineal insects. There is no plant or synthetic version sold under this INCI name, so the presence of the name settles the source."
+          }
+        ],
+        "drivers": [
+          "Carmine (cochineal insect extract)",
+          "Parfum / Fragrance (undisclosed mixture)"
+        ],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "lookfantastic:lf-4421",
+        "name": "Amika The Kure Bond Repair Shampoo",
+        "brand": "Amika",
+        "retailer": {
+          "id": "lookfantastic",
+          "name": "Lookfantastic",
+          "domain": "lookfantastic.com"
+        },
+        "retailer_sku": "lf-4421",
+        "url": "https://www.lookfantastic.com/amika-the-kure-bond-repair-shampoo/12088509.html",
+        "gtin": "8500047101234",
+        "size": "275ml",
+        "price": {
+          "minor_units": 2400,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=400",
+          "alt": "Shampoo bottle",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "haircare",
+          "category_id": "shampoo-conditioner",
+          "product_type_id": "shampoo",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Haircare",
+          "Shampoo"
+        ],
+        "ingredients_raw": "Aqua, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Glycerin, Hydrolyzed Keratin, Panthenol, Citric Acid, Sodium Benzoate, Parfum.",
+        "claims": [
+          "vegan-certified",
+          "cruelty-free"
+        ],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "likely-halal",
+        "likelihood": 100,
+        "confidence": 75,
+        "wudu": "no-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Sodium C14-16 Olefin Sulfonate",
+            "normalised": "SODIUM C14-16 OLEFIN SULFONATE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "surfactants-plant",
+            "rule_label": "Plant-derived surfactants",
+            "origin": "plant",
+            "concern": "Coconut and palm kernel surfactants. Included as explicit rules so that the wider fatty-derivative rule does not flag the standard shampoo base.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Cocamidopropyl Betaine",
+            "normalised": "COCAMIDOPROPYL BETAINE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "surfactants-plant",
+            "rule_label": "Plant-derived surfactants",
+            "origin": "plant",
+            "concern": "Coconut and palm kernel surfactants. Included as explicit rules so that the wider fatty-derivative rule does not flag the standard shampoo base.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Glycerin",
+            "normalised": "GLYCERIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "glycerin",
+            "rule_label": "Glycerin",
+            "origin": "ambiguous",
+            "concern": "A by-product of soap and biodiesel manufacture. Vegetable and synthetic glycerin dominate the European market, but tallow-derived glycerin is traded under the same INCI name.",
+            "residual_risk": 0.0,
+            "resolved_by": "vegan-certification",
+            "risk_family": "fatty-chain",
+            "cosing": {
+              "inci_name": "GLYCERIN",
+              "cas_number": "56-81-5",
+              "ec_number": "200-289-5",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Hydrolyzed Keratin",
+            "normalised": "HYDROLYZED KERATIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "keratin",
+            "rule_label": "Keratin",
+            "origin": "animal-land",
+            "concern": "Protein from wool, feathers, horn or hooves. Wool and feather keratin raise no slaughter question; hoof and horn keratin does, and pig bristle is used in some supply chains.",
+            "residual_risk": 0.0,
+            "resolved_by": "vegan-certification",
+            "risk_family": "animal-keratin",
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Panthenol",
+            "normalised": "PANTHENOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "vitamins-synthetic",
+            "rule_label": "Commonly synthetic vitamins and actives",
+            "origin": "synthetic",
+            "concern": "Synthesised or fermentation-derived actives. Allantoin and urea are listed explicitly because both have obsolete animal-origin reputations.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Citric Acid",
+            "normalised": "CITRIC ACID",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "preservatives",
+            "rule_label": "Preservatives and chelators",
+            "origin": "synthetic",
+            "concern": "Annex V preservatives and standard pH and chelating agents, all synthetic.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "Sodium Benzoate",
+            "normalised": "SODIUM BENZOATE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "preservatives",
+            "rule_label": "Preservatives and chelators",
+            "origin": "synthetic",
+            "concern": "Annex V preservatives and standard pH and chelating agents, all synthetic.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 8,
+            "raw": "Parfum.",
+            "normalised": "PARFUM",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "parfum",
+            "rule_label": "Parfum / Fragrance (undisclosed mixture)",
+            "origin": "ambiguous",
+            "concern": "Article 19 lets a whole fragrance mixture be declared under one word. That mixture can legally contain ethanol as a carrier and animal-derived notes such as civet or natural musk, none of which appear on the label.",
+            "residual_risk": 0.0,
+            "resolved_by": "vegan-certification",
+            "risk_family": "fragrance",
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "The fragrance is declared as a single umbrella term, so ethanol carriers and animal-derived notes inside it are not visible on the label."
+          }
+        ],
+        "drivers": [],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "spacenk:snk-7788",
+        "name": "Radiance Pure Glow Foundation — Sand",
+        "brand": "Radiance",
+        "manufacturer": "Radiance Cosmetics Ltd",
+        "retailer": {
+          "id": "spacenk",
+          "name": "Space NK",
+          "domain": "spacenk.com"
+        },
+        "retailer_sku": "snk-7788",
+        "url": "https://www.spacenk.com/uk/radiance-pure-glow-foundation-sand",
+        "gtin": "5067890123456",
+        "shade": "Sand",
+        "size": "30ml",
+        "price": {
+          "minor_units": 4200,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400",
+          "alt": "Foundation bottle",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "make-up",
+          "category_id": "face-make-up",
+          "product_type_id": "foundation",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Make-up",
+          "Face",
+          "Foundation"
+        ],
+        "ingredients_raw": "Aqua, Glycerin, Mica, Titanium Dioxide, Cetearyl Alcohol, Stearic Acid, Phenoxyethanol, Parfum.",
+        "claims": [
+          "halal-certified",
+          "cruelty-free"
+        ],
+        "certificate_claims": [
+          {
+            "certifier_id": "hce",
+            "certificate_number": "21633-1/2/2/Y1",
+            "holder": "Radiance Cosmetics Ltd",
+            "scopes": [
+              "cosmetics"
+            ],
+            "issued_on": null,
+            "expires_on": "2027-05-31",
+            "found_in_directory": false,
+            "found_in_regulator_registry": false,
+            "evidence": {
+              "url": "https://example.org/radiance-hce-cert.pdf",
+              "document_sha256": "73d33c8c0e41f703d673331efc8e5f7d51b54d74e97cf14006b7f55c914a9e2d",
+              "method": "sample data",
+              "captured_at": "2026-07-30T19:20:37.494749066Z"
+            }
+          }
+        ],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "certified-halal",
+        "likelihood": 100,
+        "confidence": 90,
+        "wudu": "possible-barrier",
+        "certification": "document-checked",
+        "certificate_verifications": [
+          {
+            "rung": "document-checked",
+            "certifier_name": "Halal Certification Europe",
+            "certifier_id": "hce",
+            "recognised_by": [
+              "jakim",
+              "moiat"
+            ],
+            "checks": [
+              {
+                "name": "certifier known",
+                "passed": true,
+                "detail": "Halal Certification Europe is in the certifier register."
+              },
+              {
+                "name": "regulator recognition",
+                "passed": true,
+                "detail": "Currently recognised for cosmetics by JAKIM (Malaysia), MOIAT (UAE)."
+              },
+              {
+                "name": "certifier scope",
+                "passed": true,
+                "detail": "HCE certifies beauty products."
+              },
+              {
+                "name": "validity window",
+                "passed": true,
+                "detail": "Certificate valid until 2027-05-31."
+              },
+              {
+                "name": "certificate scope",
+                "passed": true,
+                "detail": "Certificate scope covers cosmetics or personal care."
+              },
+              {
+                "name": "certificate number",
+                "passed": true,
+                "detail": "Certificate number 21633-1/2/2/Y1 recorded."
+              },
+              {
+                "name": "evidence on file",
+                "passed": true,
+                "detail": "Certificate document or directory link is on file with a content hash."
+              },
+              {
+                "name": "holder reconciliation",
+                "passed": true,
+                "detail": "Holder `Radiance Cosmetics Ltd` reconciles with the brand or its manufacturer."
+              }
+            ],
+            "expires_on": "2027-05-31"
+          }
+        ],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Glycerin",
+            "normalised": "GLYCERIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "glycerin",
+            "rule_label": "Glycerin",
+            "origin": "ambiguous",
+            "concern": "A by-product of soap and biodiesel manufacture. Vegetable and synthetic glycerin dominate the European market, but tallow-derived glycerin is traded under the same INCI name.",
+            "residual_risk": 0.0,
+            "resolved_by": "halal-certificate",
+            "risk_family": "fatty-chain",
+            "cosing": {
+              "inci_name": "GLYCERIN",
+              "cas_number": "56-81-5",
+              "ec_number": "200-289-5",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Mica",
+            "normalised": "MICA",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Titanium Dioxide",
+            "normalised": "TITANIUM DIOXIDE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "TITANIUM DIOXIDE",
+              "cas_number": "13463-67-7",
+              "ec_number": "236-675-5",
+              "functions": [
+                "COLOUR",
+                "OPACIFYING"
+              ],
+              "annex_reference": "IV/143"
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Cetearyl Alcohol",
+            "normalised": "CETEARYL ALCOHOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "fatty-alcohol",
+            "rule_label": "Fatty alcohols (cetyl, stearyl, cetearyl)",
+            "origin": "ambiguous",
+            "concern": "Waxy emollients, not intoxicants, despite the word alcohol. EU supply is overwhelmingly palm or coconut, with a small tallow-derived share.",
+            "residual_risk": 0.0,
+            "resolved_by": "halal-certificate",
+            "risk_family": "fatty-chain",
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Stearic Acid",
+            "normalised": "STEARIC ACID",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "stearic-acid",
+            "rule_label": "Stearic acid",
+            "origin": "ambiguous",
+            "concern": "Fatty acids obtained from palm, coconut or animal fat. The INCI name is identical whichever feedstock is used.",
+            "residual_risk": 0.0,
+            "resolved_by": "halal-certificate",
+            "risk_family": "fatty-chain",
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Phenoxyethanol",
+            "normalised": "PHENOXYETHANOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "benign-alcohols",
+            "rule_label": "Benzyl and phenoxy alcohols",
+            "origin": "synthetic",
+            "concern": "Aromatic and isopropyl alcohols used as preservatives and solvents. Not intoxicants and not derived from khamr, so the word alcohol in the name is not itself a concern.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "Parfum.",
+            "normalised": "PARFUM",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "parfum",
+            "rule_label": "Parfum / Fragrance (undisclosed mixture)",
+            "origin": "ambiguous",
+            "concern": "Article 19 lets a whole fragrance mixture be declared under one word. That mixture can legally contain ethanol as a carrier and animal-derived notes such as civet or natural musk, none of which appear on the label.",
+            "residual_risk": 0.0,
+            "resolved_by": "halal-certificate",
+            "risk_family": "fragrance",
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "The fragrance is declared as a single umbrella term, so ethanol carriers and animal-derived notes inside it are not visible on the label."
+          }
+        ],
+        "drivers": [],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "beautybay:bb-3310",
+        "name": "Beauty Bay Brighten + Hydrate Serum",
+        "brand": "Beauty Bay",
+        "retailer": {
+          "id": "beautybay",
+          "name": "Beauty Bay",
+          "domain": "beautybay.com"
+        },
+        "retailer_sku": "bb-3310",
+        "url": "https://www.beautybay.com/p/beauty-bay/brighten-hydrate-serum/",
+        "size": "30ml",
+        "price": {
+          "minor_units": 1295,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1570194065650-d99fb4d38c22?w=400",
+          "alt": "Serum dropper bottle",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "skincare",
+          "category_id": "skincare-treatments",
+          "product_type_id": "face-serum",
+          "method": "title",
+          "confidence": 0.675
+        },
+        "retailer_breadcrumbs": [
+          "Skincare",
+          "Serums"
+        ],
+        "ingredients_raw": "Aqua, Glycerin, Niacinamide, Sodium Hyaluronate, Panthenol, Phenoxyethanol, Ethylhexylglycerin.",
+        "claims": [
+          "vegan",
+          "cruelty-free"
+        ],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "likely-halal",
+        "likelihood": 92,
+        "confidence": 85,
+        "wudu": "no-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Glycerin",
+            "normalised": "GLYCERIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "glycerin",
+            "rule_label": "Glycerin",
+            "origin": "ambiguous",
+            "concern": "A by-product of soap and biodiesel manufacture. Vegetable and synthetic glycerin dominate the European market, but tallow-derived glycerin is traded under the same INCI name.",
+            "residual_risk": 0.0,
+            "resolved_by": "plant-source-declaration",
+            "risk_family": "fatty-chain",
+            "cosing": {
+              "inci_name": "GLYCERIN",
+              "cas_number": "56-81-5",
+              "ec_number": "200-289-5",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Niacinamide",
+            "normalised": "NIACINAMIDE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "vitamins-synthetic",
+            "rule_label": "Commonly synthetic vitamins and actives",
+            "origin": "synthetic",
+            "concern": "Synthesised or fermentation-derived actives. Allantoin and urea are listed explicitly because both have obsolete animal-origin reputations.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Sodium Hyaluronate",
+            "normalised": "SODIUM HYALURONATE",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "hyaluronic-acid",
+            "rule_label": "Hyaluronic acid",
+            "origin": "microbial",
+            "concern": "Almost all commercial supply is now bacterial fermentation. Extraction from rooster comb persists in a small part of the market.",
+            "residual_risk": 0.08,
+            "risk_family": "biotech-polymer",
+            "cosing": {
+              "inci_name": "SODIUM HYALURONATE",
+              "cas_number": "9067-32-7",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Panthenol",
+            "normalised": "PANTHENOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "vitamins-synthetic",
+            "rule_label": "Commonly synthetic vitamins and actives",
+            "origin": "synthetic",
+            "concern": "Synthesised or fermentation-derived actives. Allantoin and urea are listed explicitly because both have obsolete animal-origin reputations.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Phenoxyethanol",
+            "normalised": "PHENOXYETHANOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "benign-alcohols",
+            "rule_label": "Benzyl and phenoxy alcohols",
+            "origin": "synthetic",
+            "concern": "Aromatic and isopropyl alcohols used as preservatives and solvents. Not intoxicants and not derived from khamr, so the word alcohol in the name is not itself a concern.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Ethylhexylglycerin.",
+            "normalised": "ETHYLHEXYLGLYCERIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "preservatives",
+            "rule_label": "Preservatives and chelators",
+            "origin": "synthetic",
+            "concern": "Annex V preservatives and standard pH and chelating agents, all synthetic.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [],
+        "drivers": [
+          "Hyaluronic acid"
+        ],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "boots:perf-001",
+        "name": "YSL Libre Eau de Parfum",
+        "brand": "Yves Saint Laurent",
+        "manufacturer": "L'Oréal UK Ltd",
+        "retailer": {
+          "id": "boots",
+          "name": "Boots",
+          "domain": "boots.com"
+        },
+        "retailer_sku": "perf-001",
+        "url": "https://www.boots.com/ysl-libre-eau-de-parfum",
+        "gtin": "3614272045678",
+        "size": "50ml",
+        "price": {
+          "minor_units": 8900,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400",
+          "alt": "Perfume bottle",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "fragrance",
+          "category_id": "fine-fragrance",
+          "product_type_id": "eau-de-parfum",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Fragrance",
+          "Women's Fragrance"
+        ],
+        "ingredients_raw": "Alcohol Denat., Parfum, Aqua, Linalool, Limonene, Citronellol, Geraniol, Benzyl Salicylate.",
+        "claims": [],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "needs-verification",
+        "likelihood": 58,
+        "confidence": 75,
+        "wudu": "no-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Alcohol Denat.",
+            "normalised": "ALCOHOL DENAT",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "ethanol",
+            "rule_label": "Ethanol (alcohol, alcohol denat., SD alcohol)",
+            "origin": "ethanol",
+            "concern": "Cosmetic ethanol may be synthesised from ethylene or fermented. Most standards permit topical ethanol that does not originate in the intoxicating-liquor industry, so the question is the feedstock rather than the molecule.",
+            "residual_risk": 0.35,
+            "risk_family": "ethanol",
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Parfum",
+            "normalised": "PARFUM",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "parfum",
+            "rule_label": "Parfum / Fragrance (undisclosed mixture)",
+            "origin": "ambiguous",
+            "concern": "Article 19 lets a whole fragrance mixture be declared under one word. That mixture can legally contain ethanol as a carrier and animal-derived notes such as civet or natural musk, none of which appear on the label.",
+            "residual_risk": 0.1,
+            "risk_family": "fragrance",
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Linalool",
+            "normalised": "LINALOOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "fragrance-allergens",
+            "rule_label": "Declared fragrance allergens",
+            "origin": "synthetic",
+            "concern": "Individual fragrance components that Annex III requires to be named above a threshold. Synthesised or distilled from plants.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Limonene",
+            "normalised": "LIMONENE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "fragrance-allergens",
+            "rule_label": "Declared fragrance allergens",
+            "origin": "synthetic",
+            "concern": "Individual fragrance components that Annex III requires to be named above a threshold. Synthesised or distilled from plants.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Citronellol",
+            "normalised": "CITRONELLOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "fragrance-allergens",
+            "rule_label": "Declared fragrance allergens",
+            "origin": "synthetic",
+            "concern": "Individual fragrance components that Annex III requires to be named above a threshold. Synthesised or distilled from plants.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Geraniol",
+            "normalised": "GERANIOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "fragrance-allergens",
+            "rule_label": "Declared fragrance allergens",
+            "origin": "synthetic",
+            "concern": "Individual fragrance components that Annex III requires to be named above a threshold. Synthesised or distilled from plants.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "Benzyl Salicylate.",
+            "normalised": "BENZYL SALICYLATE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "fragrance-allergens",
+            "rule_label": "Declared fragrance allergens",
+            "origin": "synthetic",
+            "concern": "Individual fragrance components that Annex III requires to be named above a threshold. Synthesised or distilled from plants.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "The fragrance is declared as a single umbrella term, so ethanol carriers and animal-derived notes inside it are not visible on the label."
+          },
+          {
+            "severity": "caution",
+            "message": "Alcohol-based fragrance. Most standards permit topical ethanol that does not come from the intoxicating-liquor industry, but the feedstock is not stated on the pack. Attar and oil-based alternatives avoid the question entirely."
+          }
+        ],
+        "drivers": [
+          "Ethanol (alcohol, alcohol denat., SD alcohol)",
+          "Parfum / Fragrance (undisclosed mixture)"
+        ],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "boots:attar-002",
+        "name": "Al Haramain Amber Oud Attar",
+        "brand": "Al Haramain",
+        "retailer": {
+          "id": "boots",
+          "name": "Boots",
+          "domain": "boots.com"
+        },
+        "retailer_sku": "attar-002",
+        "url": "https://www.boots.com/al-haramain-amber-oud-attar",
+        "size": "12ml",
+        "price": {
+          "minor_units": 2499,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400",
+          "alt": "Attar oil bottle",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "fragrance",
+          "category_id": "alcohol-free-fragrance",
+          "product_type_id": "attar",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Fragrance",
+          "Attar"
+        ],
+        "ingredients_raw": "Aquilaria Malaccensis Wood Oil, Santalum Album Wood Oil, Rosa Damascena Flower Oil.",
+        "claims": [
+          "alcohol-free",
+          "halal-certified"
+        ],
+        "certificate_claims": [
+          {
+            "certifier_id": "ifanca",
+            "certificate_number": "MAR 23823 250001 US",
+            "holder": "Al Haramain Perfumes",
+            "scopes": [
+              "fragrance",
+              "cosmetics"
+            ],
+            "issued_on": null,
+            "expires_on": "2027-12-31",
+            "found_in_directory": true,
+            "found_in_regulator_registry": false,
+            "evidence": null
+          }
+        ],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "certified-halal",
+        "likelihood": 100,
+        "confidence": 50,
+        "wudu": "no-barrier",
+        "certification": "certifier-directory-listed",
+        "certificate_verifications": [
+          {
+            "rung": "certifier-directory-listed",
+            "certifier_name": "Islamic Food and Nutrition Council of America",
+            "certifier_id": "ifanca",
+            "recognised_by": [
+              "jakim",
+              "bpjph"
+            ],
+            "checks": [
+              {
+                "name": "certifier known",
+                "passed": true,
+                "detail": "Islamic Food and Nutrition Council of America is in the certifier register."
+              },
+              {
+                "name": "regulator recognition",
+                "passed": true,
+                "detail": "Currently recognised for cosmetics by JAKIM (Malaysia), BPJPH (Indonesia)."
+              },
+              {
+                "name": "certifier scope",
+                "passed": true,
+                "detail": "IFANCA certifies beauty products."
+              },
+              {
+                "name": "validity window",
+                "passed": true,
+                "detail": "Certificate valid until 2027-12-31."
+              },
+              {
+                "name": "certificate scope",
+                "passed": true,
+                "detail": "Certificate scope covers cosmetics or personal care."
+              },
+              {
+                "name": "certifier directory",
+                "passed": true,
+                "detail": "Listed in IFANCA's public directory."
+              }
+            ],
+            "expires_on": "2027-12-31"
+          }
+        ],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aquilaria Malaccensis Wood Oil",
+            "normalised": "AQUILARIA MALACCENSIS WOOD OIL",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Santalum Album Wood Oil",
+            "normalised": "SANTALUM ALBUM WOOD OIL",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Rosa Damascena Flower Oil.",
+            "normalised": "ROSA DAMASCENA FLOWER OIL",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [],
+        "drivers": [],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 3
+      }
+    },
+    {
+      "product": {
+        "id": "superdrug:nail-003",
+        "name": "Nails Inc. Breathable Halal Nail Polish — Baker Street",
+        "brand": "Nails Inc.",
+        "retailer": {
+          "id": "superdrug",
+          "name": "Superdrug",
+          "domain": "superdrug.com"
+        },
+        "retailer_sku": "nail-003",
+        "url": "https://www.superdrug.com/nails-inc-breathable-halal-baker-street",
+        "shade": "Baker Street",
+        "size": "14ml",
+        "price": {
+          "minor_units": 1099,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400",
+          "alt": "Nail polish",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "make-up",
+          "category_id": "nails",
+          "product_type_id": "breathable-nail-polish",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Make-up",
+          "Nails",
+          "Breathable Nail Polish"
+        ],
+        "ingredients_raw": "Butyl Acetate, Ethyl Acetate, Nitrocellulose, Acetyl Tributyl Citrate, Isopropyl Alcohol, Adipic Acid/Neopentyl Glycol/Trimellitic Anhydride Copolymer, Acrylates Copolymer, Mica, CI 77891.",
+        "claims": [
+          "halal-certified",
+          "water-permeable",
+          "vegan"
+        ],
+        "certificate_claims": [
+          {
+            "certifier_id": "hce",
+            "certificate_number": "HCE-NI-2025-44",
+            "holder": "Nails Inc. Ltd",
+            "scopes": [
+              "cosmetics"
+            ],
+            "issued_on": null,
+            "expires_on": "2026-12-31",
+            "found_in_directory": false,
+            "found_in_regulator_registry": false,
+            "evidence": null
+          }
+        ],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "likely-halal",
+        "likelihood": 100,
+        "confidence": 68,
+        "wudu": "claimed-permeable",
+        "certification": "claimed",
+        "certificate_verifications": [
+          {
+            "rung": "claimed",
+            "certifier_name": "Halal Certification Europe",
+            "certifier_id": "hce",
+            "recognised_by": [
+              "jakim",
+              "moiat"
+            ],
+            "checks": [
+              {
+                "name": "certifier known",
+                "passed": true,
+                "detail": "Halal Certification Europe is in the certifier register."
+              },
+              {
+                "name": "regulator recognition",
+                "passed": true,
+                "detail": "Currently recognised for cosmetics by JAKIM (Malaysia), MOIAT (UAE)."
+              },
+              {
+                "name": "certifier scope",
+                "passed": true,
+                "detail": "HCE certifies beauty products."
+              },
+              {
+                "name": "validity window",
+                "passed": true,
+                "detail": "Certificate valid until 2026-12-31."
+              },
+              {
+                "name": "certificate scope",
+                "passed": true,
+                "detail": "Certificate scope covers cosmetics or personal care."
+              },
+              {
+                "name": "certificate number",
+                "passed": true,
+                "detail": "Certificate number HCE-NI-2025-44 recorded."
+              },
+              {
+                "name": "evidence on file",
+                "passed": false,
+                "detail": "No document or link on file; the claim rests on packaging alone."
+              },
+              {
+                "name": "holder reconciliation",
+                "passed": true,
+                "detail": "Holder `Nails Inc. Ltd` reconciles with the brand or its manufacturer."
+              }
+            ],
+            "expires_on": "2026-12-31"
+          }
+        ],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Butyl Acetate",
+            "normalised": "BUTYL ACETATE",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Ethyl Acetate",
+            "normalised": "ETHYL ACETATE",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Nitrocellulose",
+            "normalised": "NITROCELLULOSE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "nitrocellulose",
+            "rule_label": "Nitrocellulose",
+            "origin": "plant",
+            "concern": "The plant-derived film former that gives nail lacquer its finish. Permissible in itself, but it forms a continuous water-impermeable layer that must be removed before ablution.",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "NITROCELLULOSE",
+              "cas_number": "9004-70-0",
+              "functions": [
+                "FILM FORMING"
+              ]
+            },
+            "wudu_barrier": true
+          },
+          {
+            "position": 3,
+            "raw": "Acetyl Tributyl Citrate",
+            "normalised": "ACETYL TRIBUTYL CITRATE",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Isopropyl Alcohol",
+            "normalised": "ISOPROPYL ALCOHOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "benign-alcohols",
+            "rule_label": "Benzyl and phenoxy alcohols",
+            "origin": "synthetic",
+            "concern": "Aromatic and isopropyl alcohols used as preservatives and solvents. Not intoxicants and not derived from khamr, so the word alcohol in the name is not itself a concern.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Adipic Acid/Neopentyl Glycol/Trimellitic Anhydride Copolymer",
+            "normalised": "ADIPIC ACID/NEOPENTYL GLYCOL/TRIMELLITIC ANHYDRIDE COPOLYMER",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "nail-film-formers",
+            "rule_label": "Nail and long-wear film formers",
+            "origin": "synthetic",
+            "concern": "Synthetic resins that set into a continuous film. They are permissible ingredients, but the film they create blocks water from reaching the skin or nail.",
+            "residual_risk": 0.0,
+            "wudu_barrier": true
+          },
+          {
+            "position": 6,
+            "raw": "Acrylates Copolymer",
+            "normalised": "ACRYLATES COPOLYMER",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "nail-film-formers",
+            "rule_label": "Nail and long-wear film formers",
+            "origin": "synthetic",
+            "concern": "Synthetic resins that set into a continuous film. They are permissible ingredients, but the film they create blocks water from reaching the skin or nail.",
+            "residual_risk": 0.0,
+            "wudu_barrier": true
+          },
+          {
+            "position": 7,
+            "raw": "Mica",
+            "normalised": "MICA",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 8,
+            "raw": "CI 77891.",
+            "normalised": "CI 77891",
+            "ci_number": "77891",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "info",
+            "message": "Water permeability here is a brand claim. UK certifiers including HMC state that they do not verify permeability, so it is not independently evidenced."
+          }
+        ],
+        "drivers": [],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 3
+      }
+    },
+    {
+      "product": {
+        "id": "hollandbarrett:hb-5566",
+        "name": "Faith in Nature Lavender Shampoo",
+        "brand": "Faith in Nature",
+        "retailer": {
+          "id": "hollandbarrett",
+          "name": "Holland & Barrett",
+          "domain": "hollandandbarrett.com"
+        },
+        "retailer_sku": "hb-5566",
+        "url": "https://www.hollandandbarrett.com/shop/product/faith-in-nature-lavender-shampoo",
+        "gtin": "5028868123456",
+        "size": "400ml",
+        "price": {
+          "minor_units": 599,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1527799820374-dcf8d9a4e388?w=400",
+          "alt": "Natural shampoo",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "haircare",
+          "category_id": "shampoo-conditioner",
+          "product_type_id": "shampoo",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Haircare",
+          "Shampoo"
+        ],
+        "ingredients_raw": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Lavandula Angustifolia Flower Extract, Glycerin, Sodium Chloride, Citric Acid, Sodium Benzoate, Parfum.",
+        "claims": [
+          "vegan-certified",
+          "cruelty-free",
+          "fragrance-free"
+        ],
+        "certificate_claims": [],
+        "attestations": [
+          {
+            "rule_id": "glycerin",
+            "evidence": "plant-source-declaration",
+            "statement": "Glycerin is 100% vegetable origin.",
+            "source_url": "https://faithinnature.co.uk/ingredients",
+            "document_sha256": null,
+            "recorded_at": "2026-07-30T19:20:37.494749066Z"
+          }
+        ],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "likely-halal",
+        "likelihood": 100,
+        "confidence": 80,
+        "wudu": "no-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Sodium Laureth Sulfate",
+            "normalised": "SODIUM LAURETH SULFATE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "surfactants-plant",
+            "rule_label": "Plant-derived surfactants",
+            "origin": "plant",
+            "concern": "Coconut and palm kernel surfactants. Included as explicit rules so that the wider fatty-derivative rule does not flag the standard shampoo base.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Cocamidopropyl Betaine",
+            "normalised": "COCAMIDOPROPYL BETAINE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "surfactants-plant",
+            "rule_label": "Plant-derived surfactants",
+            "origin": "plant",
+            "concern": "Coconut and palm kernel surfactants. Included as explicit rules so that the wider fatty-derivative rule does not flag the standard shampoo base.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Lavandula Angustifolia Flower Extract",
+            "normalised": "LAVANDULA ANGUSTIFOLIA FLOWER EXTRACT",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "plant-extracts",
+            "rule_label": "Botanical extracts",
+            "origin": "plant",
+            "concern": "Plant extracts. Note that many are produced in a glycol or ethanol carrier, which is assessed separately when the carrier is declared.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Glycerin",
+            "normalised": "GLYCERIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "glycerin",
+            "rule_label": "Glycerin",
+            "origin": "ambiguous",
+            "concern": "A by-product of soap and biodiesel manufacture. Vegetable and synthetic glycerin dominate the European market, but tallow-derived glycerin is traded under the same INCI name.",
+            "residual_risk": 0.0,
+            "resolved_by": "plant-source-declaration",
+            "risk_family": "fatty-chain",
+            "cosing": {
+              "inci_name": "GLYCERIN",
+              "cas_number": "56-81-5",
+              "ec_number": "200-289-5",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Sodium Chloride",
+            "normalised": "SODIUM CHLORIDE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Citric Acid",
+            "normalised": "CITRIC ACID",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "preservatives",
+            "rule_label": "Preservatives and chelators",
+            "origin": "synthetic",
+            "concern": "Annex V preservatives and standard pH and chelating agents, all synthetic.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "Sodium Benzoate",
+            "normalised": "SODIUM BENZOATE",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "preservatives",
+            "rule_label": "Preservatives and chelators",
+            "origin": "synthetic",
+            "concern": "Annex V preservatives and standard pH and chelating agents, all synthetic.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 8,
+            "raw": "Parfum.",
+            "normalised": "PARFUM",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "parfum",
+            "rule_label": "Parfum / Fragrance (undisclosed mixture)",
+            "origin": "ambiguous",
+            "concern": "Article 19 lets a whole fragrance mixture be declared under one word. That mixture can legally contain ethanol as a carrier and animal-derived notes such as civet or natural musk, none of which appear on the label.",
+            "residual_risk": 0.0,
+            "resolved_by": "vegan-certification",
+            "risk_family": "fragrance",
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "The fragrance is declared as a single umbrella term, so ethanol carriers and animal-derived notes inside it are not visible on the label."
+          }
+        ],
+        "drivers": [],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "cultbeauty:cb-9900",
+        "name": "Drunk Elephant Protini Polypeptide Cream",
+        "brand": "Drunk Elephant",
+        "retailer": {
+          "id": "cultbeauty",
+          "name": "Cult Beauty",
+          "domain": "cultbeauty.co.uk"
+        },
+        "retailer_sku": "cb-9900",
+        "url": "https://www.cultbeauty.co.uk/drunk-elephant-protini-polypeptide-cream",
+        "size": "50ml",
+        "price": {
+          "minor_units": 6400,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
+          "alt": "Moisturiser jar",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "skincare",
+          "category_id": "moisturisers",
+          "product_type_id": "face-moisturiser",
+          "method": "breadcrumb",
+          "confidence": 0.97
+        },
+        "retailer_breadcrumbs": [
+          "Skincare",
+          "Moisturisers"
+        ],
+        "claims": [
+          "cruelty-free"
+        ],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "unknown",
+        "likelihood": 100,
+        "confidence": 0,
+        "wudu": "no-barrier",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [],
+        "notes": [],
+        "drivers": [],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 0
+      }
+    },
+    {
+      "product": {
+        "id": "boots:masc-004",
+        "name": "Maybelline Lash Sensational Sky High Mascara — Very Black",
+        "brand": "Maybelline",
+        "retailer": {
+          "id": "boots",
+          "name": "Boots",
+          "domain": "boots.com"
+        },
+        "retailer_sku": "masc-004",
+        "url": "https://www.boots.com/maybelline-lash-sensational-sky-high",
+        "gtin": "3017620423456",
+        "shade": "Very Black",
+        "size": "7.2ml",
+        "price": {
+          "minor_units": 1199,
+          "currency": "GBP"
+        },
+        "image": {
+          "url": "https://images.unsplash.com/photo-1631730486572-226f0b47afdd?w=400",
+          "alt": "Mascara tube",
+          "rights": "placeholder"
+        },
+        "taxonomy": {
+          "department_id": "make-up",
+          "category_id": "eye-make-up",
+          "product_type_id": "mascara",
+          "method": "manual",
+          "confidence": 1.0
+        },
+        "retailer_breadcrumbs": [
+          "Make-up",
+          "Eyes",
+          "Mascara"
+        ],
+        "ingredients_raw": "Aqua, Paraffin, Potassium Cetyl Phosphate, Copernicia Cerifera Cera, Acacia Senegal Gum, Glycerin, Phenoxyethanol, Rayon, CI 77499.",
+        "claims": [],
+        "certificate_claims": [],
+        "attestations": [],
+        "acquisition": "manual",
+        "captured_at": "2026-07-30T19:20:37.494749066Z"
+      },
+      "assessment": {
+        "profile_id": "uk-general",
+        "verdict": "needs-verification",
+        "likelihood": 82,
+        "confidence": 74,
+        "wudu": "remove-before-wudu",
+        "certification": "no-claim",
+        "certificate_verifications": [],
+        "ingredients": [
+          {
+            "position": 0,
+            "raw": "Aqua",
+            "normalised": "AQUA",
+            "may_contain": false,
+            "status": "halal",
+            "residual_risk": 0.0,
+            "cosing": {
+              "inci_name": "AQUA",
+              "cas_number": "7732-18-5",
+              "ec_number": "231-791-2",
+              "functions": [
+                "SOLVENT"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 1,
+            "raw": "Paraffin",
+            "normalised": "PARAFFIN",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "waxes-plant",
+            "rule_label": "Plant and synthetic waxes",
+            "origin": "plant",
+            "concern": "Botanical and petroleum waxes routinely used as beeswax replacements.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 2,
+            "raw": "Potassium Cetyl Phosphate",
+            "normalised": "POTASSIUM CETYL PHOSPHATE",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 3,
+            "raw": "Copernicia Cerifera Cera",
+            "normalised": "COPERNICIA CERIFERA CERA",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "waxes-plant",
+            "rule_label": "Plant and synthetic waxes",
+            "origin": "plant",
+            "concern": "Botanical and petroleum waxes routinely used as beeswax replacements.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 4,
+            "raw": "Acacia Senegal Gum",
+            "normalised": "ACACIA SENEGAL GUM",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "gums-polymers",
+            "rule_label": "Gums, cellulosics and synthetic polymers",
+            "origin": "plant",
+            "concern": "Plant, algal, microbial and synthetic thickeners.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 5,
+            "raw": "Glycerin",
+            "normalised": "GLYCERIN",
+            "may_contain": false,
+            "status": "mashbooh",
+            "rule_id": "glycerin",
+            "rule_label": "Glycerin",
+            "origin": "ambiguous",
+            "concern": "A by-product of soap and biodiesel manufacture. Vegetable and synthetic glycerin dominate the European market, but tallow-derived glycerin is traded under the same INCI name.",
+            "residual_risk": 0.18,
+            "risk_family": "fatty-chain",
+            "cosing": {
+              "inci_name": "GLYCERIN",
+              "cas_number": "56-81-5",
+              "ec_number": "200-289-5",
+              "functions": [
+                "HUMECTANT",
+                "SKIN CONDITIONING"
+              ]
+            },
+            "wudu_barrier": false
+          },
+          {
+            "position": 6,
+            "raw": "Phenoxyethanol",
+            "normalised": "PHENOXYETHANOL",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "benign-alcohols",
+            "rule_label": "Benzyl and phenoxy alcohols",
+            "origin": "synthetic",
+            "concern": "Aromatic and isopropyl alcohols used as preservatives and solvents. Not intoxicants and not derived from khamr, so the word alcohol in the name is not itself a concern.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 7,
+            "raw": "Rayon",
+            "normalised": "RAYON",
+            "may_contain": false,
+            "status": "unknown",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          },
+          {
+            "position": 8,
+            "raw": "CI 77499.",
+            "normalised": "CI 77499",
+            "ci_number": "77499",
+            "may_contain": false,
+            "status": "halal",
+            "rule_id": "mineral-colourants",
+            "rule_label": "Mineral colourants and fillers",
+            "origin": "mineral",
+            "concern": "Mined or inorganic pigments and fillers with no animal or intoxicant route.",
+            "residual_risk": 0.0,
+            "wudu_barrier": false
+          }
+        ],
+        "notes": [
+          {
+            "severity": "caution",
+            "message": "Forms a continuous film. A halal certificate covers the ingredients, not whether water reaches the skin, so this still needs removing before wudu."
+          }
+        ],
+        "drivers": [
+          "Glycerin"
+        ],
+        "lexicon_version": "2026.07-sample",
+        "unrecognised_count": 2
+      }
+    }
+  ],
+  "retailers": [
+    {
+      "id": "boots",
+      "name": "Boots",
+      "domain": "boots.com"
+    },
+    {
+      "id": "superdrug",
+      "name": "Superdrug",
+      "domain": "superdrug.com"
+    },
+    {
+      "id": "lookfantastic",
+      "name": "Lookfantastic",
+      "domain": "lookfantastic.com"
+    },
+    {
+      "id": "spacenk",
+      "name": "Space NK",
+      "domain": "spacenk.com"
+    },
+    {
+      "id": "beautybay",
+      "name": "Beauty Bay",
+      "domain": "beautybay.com"
+    },
+    {
+      "id": "cultbeauty",
+      "name": "Cult Beauty",
+      "domain": "cultbeauty.co.uk"
+    },
+    {
+      "id": "hollandbarrett",
+      "name": "Holland & Barrett",
+      "domain": "hollandandbarrett.com"
+    }
+  ],
+  "taxonomy": {
+    "departments": [
+      {
+        "id": "make-up",
+        "name": "Make-up",
+        "categories": [
+          {
+            "id": "face-make-up",
+            "name": "Face",
+            "product_types": [
+              {
+                "id": "primer",
+                "name": "Primer",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "primer",
+                  "face primer",
+                  "pore filler"
+                ],
+                "facets": [
+                  "finish",
+                  "skin-type",
+                  "format"
+                ]
+              },
+              {
+                "id": "foundation",
+                "name": "Foundation",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "foundation",
+                  "liquid foundation",
+                  "serum foundation",
+                  "stick foundation"
+                ],
+                "facets": [
+                  "shade",
+                  "coverage",
+                  "finish",
+                  "spf",
+                  "skin-type",
+                  "format"
+                ]
+              },
+              {
+                "id": "cushion-foundation",
+                "name": "Cushion Foundation",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "cushion foundation",
+                  "cushion compact"
+                ],
+                "facets": [
+                  "shade",
+                  "coverage",
+                  "finish",
+                  "spf"
+                ]
+              },
+              {
+                "id": "tinted-moisturiser",
+                "name": "Tinted Moisturiser & BB/CC Cream",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "tinted moisturiser",
+                  "tinted moisturizer",
+                  "bb cream",
+                  "cc cream",
+                  "skin tint"
+                ],
+                "facets": [
+                  "shade",
+                  "coverage",
+                  "spf",
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "concealer",
+                "name": "Concealer",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "concealer",
+                  "colour corrector",
+                  "color corrector"
+                ],
+                "facets": [
+                  "shade",
+                  "coverage",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "face-powder",
+                "name": "Face Powder",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "face powder",
+                  "setting powder",
+                  "loose powder",
+                  "pressed powder",
+                  "banana powder"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "blusher",
+                "name": "Blusher",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "blusher",
+                  "blush",
+                  "cheek tint"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "bronzer",
+                "name": "Bronzer",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "bronzer",
+                  "bronzing powder"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "highlighter",
+                "name": "Highlighter",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "highlighter",
+                  "illuminator",
+                  "glow drops"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "contour",
+                "name": "Contour",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "contour",
+                  "contour stick",
+                  "sculpting stick"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "setting-spray",
+                "name": "Setting Spray & Fixer",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "setting spray",
+                  "fixing spray",
+                  "makeup fixer",
+                  "finishing spray"
+                ],
+                "facets": [
+                  "finish",
+                  "alcohol-content"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "eye-make-up",
+            "name": "Eyes",
+            "product_types": [
+              {
+                "id": "mascara",
+                "name": "Mascara",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "mascara"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "waterproof",
+                  "format"
+                ]
+              },
+              {
+                "id": "eyeliner",
+                "name": "Eyeliner",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "eyeliner",
+                  "eye liner",
+                  "kajal",
+                  "kohl",
+                  "liquid liner"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "waterproof",
+                  "format"
+                ]
+              },
+              {
+                "id": "eyeshadow",
+                "name": "Eyeshadow",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "eyeshadow",
+                  "eye shadow",
+                  "eyeshadow palette",
+                  "eye palette"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "eyebrow",
+                "name": "Eyebrows",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "eyebrow",
+                  "brow pencil",
+                  "brow gel",
+                  "brow pomade",
+                  "brow tint",
+                  "brow lamination"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "format"
+                ]
+              },
+              {
+                "id": "false-lashes",
+                "name": "False Lashes & Adhesive",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "false lashes",
+                  "false eyelashes",
+                  "lash adhesive",
+                  "lash glue",
+                  "strip lashes"
+                ],
+                "facets": [
+                  "format",
+                  "material"
+                ]
+              },
+              {
+                "id": "lash-brow-serum",
+                "name": "Lash & Brow Serum",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "lash serum",
+                  "eyelash serum",
+                  "brow serum"
+                ],
+                "facets": [
+                  "format"
+                ]
+              },
+              {
+                "id": "eye-primer",
+                "name": "Eye Primer",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "eye primer",
+                  "eyeshadow primer",
+                  "lid primer"
+                ],
+                "facets": [
+                  "shade",
+                  "finish"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "lip-make-up",
+            "name": "Lips",
+            "product_types": [
+              {
+                "id": "lipstick",
+                "name": "Lipstick",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "lipstick",
+                  "lip colour",
+                  "lip color",
+                  "lip crayon"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "transfer-proof"
+                ]
+              },
+              {
+                "id": "liquid-lipstick",
+                "name": "Liquid Lipstick",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "liquid lipstick",
+                  "liquid lip",
+                  "lip lacquer",
+                  "matte liquid lip"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "transfer-proof"
+                ]
+              },
+              {
+                "id": "lip-gloss",
+                "name": "Lip Gloss",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "lip gloss",
+                  "lipgloss",
+                  "gloss balm"
+                ],
+                "facets": [
+                  "shade",
+                  "finish"
+                ]
+              },
+              {
+                "id": "lip-liner",
+                "name": "Lip Liner",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "lip liner",
+                  "lip pencil"
+                ],
+                "facets": [
+                  "shade",
+                  "finish"
+                ]
+              },
+              {
+                "id": "lip-balm",
+                "name": "Lip Balm & Treatment",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "lip balm",
+                  "lip treatment",
+                  "lip mask",
+                  "lip butter",
+                  "lip salve"
+                ],
+                "facets": [
+                  "shade",
+                  "spf",
+                  "format"
+                ]
+              },
+              {
+                "id": "lip-oil",
+                "name": "Lip Oil",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "lip oil",
+                  "lip tinted oil"
+                ],
+                "facets": [
+                  "shade",
+                  "finish"
+                ]
+              },
+              {
+                "id": "lip-stain",
+                "name": "Lip Stain & Tint",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "lip stain",
+                  "lip tint",
+                  "lip ink"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "transfer-proof"
+                ]
+              },
+              {
+                "id": "lip-plumper",
+                "name": "Lip Plumper",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "lip plumper",
+                  "plumping gloss"
+                ],
+                "facets": [
+                  "shade",
+                  "finish"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "nails",
+            "name": "Nails",
+            "product_types": [
+              {
+                "id": "nail-polish",
+                "name": "Nail Polish",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "nail polish",
+                  "nail varnish",
+                  "nail lacquer",
+                  "nail colour",
+                  "nail enamel"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "water-permeable"
+                ]
+              },
+              {
+                "id": "breathable-nail-polish",
+                "name": "Breathable Nail Polish",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "breathable nail polish",
+                  "breathable polish",
+                  "wudu friendly polish",
+                  "halal nail polish",
+                  "water permeable polish"
+                ],
+                "facets": [
+                  "shade",
+                  "finish",
+                  "water-permeable"
+                ]
+              },
+              {
+                "id": "gel-polish",
+                "name": "Gel Polish & System",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "gel polish",
+                  "gel nail",
+                  "uv gel",
+                  "builder gel"
+                ],
+                "facets": [
+                  "shade",
+                  "finish"
+                ]
+              },
+              {
+                "id": "nail-treatment",
+                "name": "Nail Treatment & Strengthener",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "nail treatment",
+                  "nail strengthener",
+                  "nail hardener",
+                  "cuticle oil"
+                ],
+                "facets": [
+                  "format"
+                ]
+              },
+              {
+                "id": "base-top-coat",
+                "name": "Base & Top Coat",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "base coat",
+                  "top coat",
+                  "topcoat",
+                  "basecoat"
+                ],
+                "facets": [
+                  "finish"
+                ]
+              },
+              {
+                "id": "nail-polish-remover",
+                "name": "Nail Polish Remover",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "nail polish remover",
+                  "nail varnish remover",
+                  "acetone remover"
+                ],
+                "facets": [
+                  "format",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "press-on-nails",
+                "name": "Press-on & False Nails",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "press on nails",
+                  "false nails",
+                  "stick on nails",
+                  "nail tips"
+                ],
+                "facets": [
+                  "shade",
+                  "format"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "make-up-accessories",
+            "name": "Brushes & Tools",
+            "product_types": [
+              {
+                "id": "makeup-brush",
+                "name": "Make-up Brush",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "makeup brush",
+                  "make up brush",
+                  "brush set",
+                  "foundation brush",
+                  "blending brush"
+                ],
+                "facets": [
+                  "material",
+                  "format"
+                ]
+              },
+              {
+                "id": "beauty-sponge",
+                "name": "Beauty Sponge & Applicator",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "beauty sponge",
+                  "blender sponge",
+                  "makeup sponge",
+                  "applicator"
+                ],
+                "facets": [
+                  "material"
+                ]
+              },
+              {
+                "id": "lash-curler",
+                "name": "Lash Curler & Tweezers",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "eyelash curler",
+                  "lash curler",
+                  "tweezers"
+                ],
+                "facets": [
+                  "material"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skincare",
+        "name": "Skincare",
+        "categories": [
+          {
+            "id": "cleansers-toners",
+            "name": "Cleansers & Toners",
+            "product_types": [
+              {
+                "id": "facial-cleanser",
+                "name": "Facial Cleanser & Wash",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "facial cleanser",
+                  "face wash",
+                  "cleansing gel",
+                  "foaming cleanser",
+                  "cleansing cream",
+                  "face cleanser"
+                ],
+                "facets": [
+                  "skin-type",
+                  "format",
+                  "free-from"
+                ]
+              },
+              {
+                "id": "cleansing-balm",
+                "name": "Cleansing Balm & Oil",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "cleansing balm",
+                  "cleansing oil",
+                  "makeup melting balm"
+                ],
+                "facets": [
+                  "skin-type",
+                  "format"
+                ]
+              },
+              {
+                "id": "micellar-water",
+                "name": "Micellar Water & Make-up Remover",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "micellar water",
+                  "makeup remover",
+                  "eye makeup remover",
+                  "cleansing water"
+                ],
+                "facets": [
+                  "skin-type",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "cleansing-wipe",
+                "name": "Cleansing Wipes",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "cleansing wipes",
+                  "face wipes",
+                  "makeup wipes"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "toner",
+                "name": "Toner & Essence",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "toner",
+                  "toning water",
+                  "essence",
+                  "toning lotion"
+                ],
+                "facets": [
+                  "skin-type",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "exfoliator",
+                "name": "Exfoliator & Peel",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "exfoliator",
+                  "face scrub",
+                  "chemical peel",
+                  "exfoliating pads",
+                  "aha peel"
+                ],
+                "facets": [
+                  "skin-type",
+                  "format",
+                  "active"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "moisturisers",
+            "name": "Moisturisers",
+            "product_types": [
+              {
+                "id": "face-moisturiser",
+                "name": "Face Moisturiser",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "face moisturiser",
+                  "face moisturizer",
+                  "day cream",
+                  "face cream",
+                  "moisturising lotion",
+                  "face gel cream"
+                ],
+                "facets": [
+                  "skin-type",
+                  "spf",
+                  "format",
+                  "free-from"
+                ]
+              },
+              {
+                "id": "night-cream",
+                "name": "Night Cream",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "night cream",
+                  "sleeping cream",
+                  "night moisturiser"
+                ],
+                "facets": [
+                  "skin-type",
+                  "active"
+                ]
+              },
+              {
+                "id": "face-oil",
+                "name": "Face Oil",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "face oil",
+                  "facial oil",
+                  "rosehip oil",
+                  "marula oil"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "neck-cream",
+                "name": "Neck & Décolleté Cream",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "neck cream",
+                  "neck and decollete",
+                  "decollete cream"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "skincare-treatments",
+            "name": "Serums & Treatments",
+            "product_types": [
+              {
+                "id": "face-serum",
+                "name": "Face Serum",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "face serum",
+                  "facial serum",
+                  "hyaluronic serum",
+                  "niacinamide serum",
+                  "vitamin c serum",
+                  "serum"
+                ],
+                "facets": [
+                  "skin-type",
+                  "active",
+                  "free-from"
+                ]
+              },
+              {
+                "id": "retinol-treatment",
+                "name": "Retinol & Retinoid",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "retinol",
+                  "retinoid",
+                  "retinal",
+                  "granactive retinoid"
+                ],
+                "facets": [
+                  "skin-type",
+                  "active"
+                ]
+              },
+              {
+                "id": "acne-treatment",
+                "name": "Blemish & Acne Treatment",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "acne treatment",
+                  "blemish treatment",
+                  "spot treatment",
+                  "salicylic acid treatment",
+                  "blemish gel"
+                ],
+                "facets": [
+                  "skin-type",
+                  "active"
+                ]
+              },
+              {
+                "id": "ampoule",
+                "name": "Ampoule & Booster",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "ampoule",
+                  "booster drops",
+                  "concentrate drops"
+                ],
+                "facets": [
+                  "active"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "eye-skincare",
+            "name": "Eye Care",
+            "product_types": [
+              {
+                "id": "eye-cream",
+                "name": "Eye Cream",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "eye cream",
+                  "under eye cream"
+                ],
+                "facets": [
+                  "skin-type",
+                  "active"
+                ]
+              },
+              {
+                "id": "eye-serum",
+                "name": "Eye Serum & Gel",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "eye serum",
+                  "eye gel",
+                  "eye concentrate"
+                ],
+                "facets": [
+                  "active"
+                ]
+              },
+              {
+                "id": "eye-patch",
+                "name": "Eye Patches & Masks",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "eye patches",
+                  "eye masks",
+                  "under eye patches",
+                  "hydrogel patches"
+                ],
+                "facets": [
+                  "format"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "face-masks",
+            "name": "Face Masks",
+            "product_types": [
+              {
+                "id": "sheet-mask",
+                "name": "Sheet Mask",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "sheet mask",
+                  "bio cellulose mask"
+                ],
+                "facets": [
+                  "skin-type",
+                  "active"
+                ]
+              },
+              {
+                "id": "clay-mask",
+                "name": "Clay & Mud Mask",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "clay mask",
+                  "mud mask",
+                  "charcoal mask"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "overnight-mask",
+                "name": "Overnight & Sleeping Mask",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "overnight mask",
+                  "sleeping mask",
+                  "sleeping pack"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "peel-off-mask",
+                "name": "Peel-off Mask",
+                "application": "rinse-off",
+                "film_risk": "inherent",
+                "keywords": [
+                  "peel off mask",
+                  "peel mask"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "suncare-tanning",
+            "name": "Suncare & Tanning",
+            "product_types": [
+              {
+                "id": "face-spf",
+                "name": "Face SPF",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "face spf",
+                  "facial sunscreen",
+                  "face sunscreen",
+                  "uv fluid"
+                ],
+                "facets": [
+                  "spf",
+                  "skin-type",
+                  "finish"
+                ]
+              },
+              {
+                "id": "body-sunscreen",
+                "name": "Body Sunscreen",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "sunscreen",
+                  "sun lotion",
+                  "sun cream",
+                  "sun spray",
+                  "sun milk"
+                ],
+                "facets": [
+                  "spf",
+                  "format"
+                ]
+              },
+              {
+                "id": "after-sun",
+                "name": "After Sun",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "after sun",
+                  "aftersun"
+                ],
+                "facets": [
+                  "format"
+                ]
+              },
+              {
+                "id": "self-tan",
+                "name": "Self Tan",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "self tan",
+                  "fake tan",
+                  "tanning mousse",
+                  "tanning drops",
+                  "gradual tan"
+                ],
+                "facets": [
+                  "shade",
+                  "format",
+                  "alcohol-content"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "haircare",
+        "name": "Haircare",
+        "categories": [
+          {
+            "id": "shampoo-conditioner",
+            "name": "Shampoo & Conditioner",
+            "product_types": [
+              {
+                "id": "shampoo",
+                "name": "Shampoo",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "shampoo"
+                ],
+                "facets": [
+                  "hair-type",
+                  "hair-concern",
+                  "free-from",
+                  "format"
+                ]
+              },
+              {
+                "id": "conditioner",
+                "name": "Conditioner",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "conditioner",
+                  "conditioning rinse"
+                ],
+                "facets": [
+                  "hair-type",
+                  "hair-concern",
+                  "free-from"
+                ]
+              },
+              {
+                "id": "dry-shampoo",
+                "name": "Dry Shampoo",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "dry shampoo"
+                ],
+                "facets": [
+                  "hair-type",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "co-wash",
+                "name": "Co-wash & Cleansing Conditioner",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "co wash",
+                  "cowash",
+                  "cleansing conditioner"
+                ],
+                "facets": [
+                  "hair-type"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hair-treatments",
+            "name": "Hair Treatments",
+            "product_types": [
+              {
+                "id": "hair-mask",
+                "name": "Hair Mask",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "hair mask",
+                  "deep conditioning mask",
+                  "hair treatment mask"
+                ],
+                "facets": [
+                  "hair-type",
+                  "hair-concern"
+                ]
+              },
+              {
+                "id": "leave-in-conditioner",
+                "name": "Leave-in Conditioner",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "leave in conditioner",
+                  "leave in",
+                  "detangling spray"
+                ],
+                "facets": [
+                  "hair-type",
+                  "hair-concern"
+                ]
+              },
+              {
+                "id": "hair-oil",
+                "name": "Hair Oil & Serum",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "hair oil",
+                  "hair serum",
+                  "argan oil hair",
+                  "hair elixir"
+                ],
+                "facets": [
+                  "hair-type",
+                  "hair-concern"
+                ]
+              },
+              {
+                "id": "bond-repair",
+                "name": "Bond Repair & Protein Treatment",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "bond repair",
+                  "bond builder",
+                  "protein treatment",
+                  "keratin treatment"
+                ],
+                "facets": [
+                  "hair-concern"
+                ]
+              },
+              {
+                "id": "heat-protection",
+                "name": "Heat Protection",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "heat protection",
+                  "heat protectant",
+                  "thermal protector"
+                ],
+                "facets": [
+                  "hair-type"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hair-styling",
+            "name": "Styling",
+            "product_types": [
+              {
+                "id": "hairspray",
+                "name": "Hairspray",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "hairspray",
+                  "hair spray",
+                  "finishing spray hair"
+                ],
+                "facets": [
+                  "hold",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "hair-gel",
+                "name": "Hair Gel",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "hair gel",
+                  "styling gel"
+                ],
+                "facets": [
+                  "hold",
+                  "hair-type"
+                ]
+              },
+              {
+                "id": "hair-mousse",
+                "name": "Mousse & Foam",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "hair mousse",
+                  "styling foam",
+                  "volumising mousse"
+                ],
+                "facets": [
+                  "hold",
+                  "hair-type"
+                ]
+              },
+              {
+                "id": "hair-wax",
+                "name": "Wax, Clay & Pomade",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "hair wax",
+                  "hair clay",
+                  "pomade",
+                  "styling paste"
+                ],
+                "facets": [
+                  "hold",
+                  "finish"
+                ]
+              },
+              {
+                "id": "curl-cream",
+                "name": "Curl Cream & Definer",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "curl cream",
+                  "curl definer",
+                  "curl custard",
+                  "curl gel"
+                ],
+                "facets": [
+                  "hair-type",
+                  "hold"
+                ]
+              },
+              {
+                "id": "edge-control",
+                "name": "Edge Control & Smoothing",
+                "application": "leave-on",
+                "film_risk": "inherent",
+                "keywords": [
+                  "edge control",
+                  "edge tamer",
+                  "smoothing gel"
+                ],
+                "facets": [
+                  "hold",
+                  "hair-type"
+                ]
+              },
+              {
+                "id": "texturising-spray",
+                "name": "Texturising & Volume Spray",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "texturising spray",
+                  "texturizing spray",
+                  "sea salt spray",
+                  "volume spray"
+                ],
+                "facets": [
+                  "hold",
+                  "alcohol-content"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hair-colour",
+            "name": "Hair Colour",
+            "product_types": [
+              {
+                "id": "permanent-hair-colour",
+                "name": "Permanent Hair Colour",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "permanent hair colour",
+                  "permanent hair color",
+                  "hair dye",
+                  "hair colourant"
+                ],
+                "facets": [
+                  "shade",
+                  "hair-concern"
+                ]
+              },
+              {
+                "id": "semi-permanent-hair-colour",
+                "name": "Semi-permanent Colour",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "semi permanent colour",
+                  "semi permanent color",
+                  "demi permanent",
+                  "colour mask",
+                  "hair gloss"
+                ],
+                "facets": [
+                  "shade"
+                ]
+              },
+              {
+                "id": "hair-bleach",
+                "name": "Bleach & Lightener",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "hair bleach",
+                  "lightening kit",
+                  "bleach kit",
+                  "hair lightener"
+                ],
+                "facets": [
+                  "shade"
+                ]
+              },
+              {
+                "id": "root-touch-up",
+                "name": "Root Touch-up",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "root touch up",
+                  "root cover up",
+                  "root spray",
+                  "grey coverage spray"
+                ],
+                "facets": [
+                  "shade"
+                ]
+              },
+              {
+                "id": "henna",
+                "name": "Henna & Plant Colour",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "henna",
+                  "mehndi",
+                  "indigo hair",
+                  "cassia"
+                ],
+                "facets": [
+                  "shade",
+                  "free-from"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "scalp-care",
+            "name": "Scalp Care",
+            "product_types": [
+              {
+                "id": "scalp-scrub",
+                "name": "Scalp Scrub & Exfoliant",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "scalp scrub",
+                  "scalp exfoliant",
+                  "scalp peel"
+                ],
+                "facets": [
+                  "hair-concern"
+                ]
+              },
+              {
+                "id": "anti-dandruff",
+                "name": "Anti-dandruff",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "anti dandruff",
+                  "antidandruff",
+                  "dandruff shampoo",
+                  "ketoconazole shampoo"
+                ],
+                "facets": [
+                  "hair-concern",
+                  "active"
+                ]
+              },
+              {
+                "id": "hair-growth-serum",
+                "name": "Hair & Scalp Serum",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "hair growth serum",
+                  "scalp serum",
+                  "densifying serum",
+                  "minoxidil"
+                ],
+                "facets": [
+                  "hair-concern",
+                  "active"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hair-tools",
+            "name": "Hair Tools & Accessories",
+            "product_types": [
+              {
+                "id": "hair-brush",
+                "name": "Brushes & Combs",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "hair brush",
+                  "detangling brush",
+                  "wide tooth comb",
+                  "paddle brush"
+                ],
+                "facets": [
+                  "material"
+                ]
+              },
+              {
+                "id": "hair-dryer",
+                "name": "Hair Dryer",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "hair dryer",
+                  "hairdryer",
+                  "diffuser dryer"
+                ],
+                "facets": [
+                  "format"
+                ]
+              },
+              {
+                "id": "hair-straightener",
+                "name": "Straighteners & Curlers",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "hair straightener",
+                  "straighteners",
+                  "curling tong",
+                  "curling wand",
+                  "hot brush"
+                ],
+                "facets": [
+                  "format"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fragrance",
+        "name": "Fragrance",
+        "categories": [
+          {
+            "id": "fine-fragrance",
+            "name": "Fine Fragrance",
+            "product_types": [
+              {
+                "id": "eau-de-parfum",
+                "name": "Eau de Parfum",
+                "application": "evaporative",
+                "film_risk": "none",
+                "keywords": [
+                  "eau de parfum",
+                  "edp"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "concentration",
+                  "alcohol-content",
+                  "size"
+                ]
+              },
+              {
+                "id": "eau-de-toilette",
+                "name": "Eau de Toilette",
+                "application": "evaporative",
+                "film_risk": "none",
+                "keywords": [
+                  "eau de toilette",
+                  "edt"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "concentration",
+                  "alcohol-content",
+                  "size"
+                ]
+              },
+              {
+                "id": "parfum-extrait",
+                "name": "Parfum & Extrait",
+                "application": "evaporative",
+                "film_risk": "none",
+                "keywords": [
+                  "extrait de parfum",
+                  "parfum extrait",
+                  "pure parfum"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "concentration",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "eau-de-cologne",
+                "name": "Cologne & Eau Fraîche",
+                "application": "evaporative",
+                "film_risk": "none",
+                "keywords": [
+                  "eau de cologne",
+                  "cologne",
+                  "eau fraiche"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "alcohol-content"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "alcohol-free-fragrance",
+            "name": "Alcohol-free Fragrance",
+            "product_types": [
+              {
+                "id": "attar",
+                "name": "Attar & Oud Oil",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "attar",
+                  "ittar",
+                  "oud oil",
+                  "mukhallat",
+                  "bakhoor oil"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "perfume-oil",
+                "name": "Perfume Oil",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "perfume oil",
+                  "fragrance oil",
+                  "roll on perfume"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "solid-perfume",
+                "name": "Solid Perfume",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "solid perfume",
+                  "perfume balm"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience"
+                ]
+              },
+              {
+                "id": "alcohol-free-mist",
+                "name": "Alcohol-free Body Mist",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "alcohol free body mist",
+                  "alcohol free mist",
+                  "water based perfume"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "alcohol-content"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "body-fragrance",
+            "name": "Body Fragrance",
+            "product_types": [
+              {
+                "id": "body-mist",
+                "name": "Body Mist & Spray",
+                "application": "evaporative",
+                "film_risk": "none",
+                "keywords": [
+                  "body mist",
+                  "body spray",
+                  "fragrance mist"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "hair-mist",
+                "name": "Hair Mist",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "hair mist",
+                  "hair perfume",
+                  "hair fragrance"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "fragrance-gift-set",
+                "name": "Fragrance Gift Set",
+                "application": "evaporative",
+                "film_risk": "none",
+                "keywords": [
+                  "fragrance gift set",
+                  "perfume gift set",
+                  "discovery set"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "audience"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "home-fragrance",
+            "name": "Home Fragrance",
+            "product_types": [
+              {
+                "id": "scented-candle",
+                "name": "Scented Candle",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "scented candle",
+                  "candle"
+                ],
+                "facets": [
+                  "fragrance-family",
+                  "material"
+                ]
+              },
+              {
+                "id": "reed-diffuser",
+                "name": "Diffuser & Room Spray",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "reed diffuser",
+                  "room spray",
+                  "home mist",
+                  "bakhoor",
+                  "incense"
+                ],
+                "facets": [
+                  "fragrance-family"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bath-body",
+        "name": "Bath & Body",
+        "categories": [
+          {
+            "id": "bathing",
+            "name": "Bathing & Showering",
+            "product_types": [
+              {
+                "id": "shower-gel",
+                "name": "Shower Gel & Body Wash",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "shower gel",
+                  "body wash",
+                  "shower cream",
+                  "shower foam"
+                ],
+                "facets": [
+                  "skin-type",
+                  "free-from",
+                  "size"
+                ]
+              },
+              {
+                "id": "bar-soap",
+                "name": "Bar Soap & Cleansing Bar",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "bar soap",
+                  "soap bar",
+                  "cleansing bar",
+                  "beauty bar"
+                ],
+                "facets": [
+                  "skin-type",
+                  "free-from"
+                ]
+              },
+              {
+                "id": "bath-soak",
+                "name": "Bath Soak & Salts",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "bath soak",
+                  "bath salts",
+                  "bubble bath",
+                  "bath milk"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "bath-bomb",
+                "name": "Bath Bomb & Fizzer",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "bath bomb",
+                  "bath fizzer"
+                ],
+                "facets": [
+                  "fragrance-family"
+                ]
+              },
+              {
+                "id": "shower-oil",
+                "name": "Shower Oil",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "shower oil",
+                  "cleansing oil body"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "body-moisturisers",
+            "name": "Body Moisturisers",
+            "product_types": [
+              {
+                "id": "body-lotion",
+                "name": "Body Lotion & Cream",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "body lotion",
+                  "body cream",
+                  "body milk",
+                  "body moisturiser"
+                ],
+                "facets": [
+                  "skin-type",
+                  "free-from",
+                  "size"
+                ]
+              },
+              {
+                "id": "body-butter",
+                "name": "Body Butter",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "body butter",
+                  "shea butter body"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "body-oil",
+                "name": "Body Oil",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "body oil",
+                  "dry body oil"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "body-scrub",
+                "name": "Body Scrub & Exfoliant",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "body scrub",
+                  "body exfoliant",
+                  "body polish",
+                  "sugar scrub"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "deodorants",
+            "name": "Deodorant & Antiperspirant",
+            "product_types": [
+              {
+                "id": "deodorant-spray",
+                "name": "Deodorant Spray",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "deodorant spray",
+                  "body spray deodorant",
+                  "antiperspirant spray"
+                ],
+                "facets": [
+                  "alcohol-content",
+                  "free-from"
+                ]
+              },
+              {
+                "id": "deodorant-roll-on",
+                "name": "Roll-on & Stick",
+                "application": "leave-on",
+                "film_risk": "possible",
+                "keywords": [
+                  "roll on deodorant",
+                  "deodorant stick",
+                  "deodorant cream"
+                ],
+                "facets": [
+                  "alcohol-content",
+                  "free-from"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hand-foot-care",
+            "name": "Hand & Foot Care",
+            "product_types": [
+              {
+                "id": "hand-cream",
+                "name": "Hand Cream",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "hand cream",
+                  "hand lotion",
+                  "hand balm"
+                ],
+                "facets": [
+                  "skin-type",
+                  "size"
+                ]
+              },
+              {
+                "id": "hand-wash",
+                "name": "Hand Wash & Sanitiser",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "hand wash",
+                  "hand soap",
+                  "hand sanitiser",
+                  "hand sanitizer",
+                  "hand gel"
+                ],
+                "facets": [
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "foot-care",
+                "name": "Foot Care",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "foot cream",
+                  "foot scrub",
+                  "foot mask",
+                  "heel balm"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mens-grooming",
+        "name": "Men's Grooming",
+        "categories": [
+          {
+            "id": "shaving",
+            "name": "Shaving & Beard",
+            "product_types": [
+              {
+                "id": "shaving-prep",
+                "name": "Shaving Foam, Gel & Cream",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "shaving foam",
+                  "shaving gel",
+                  "shaving cream",
+                  "shave butter"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "aftershave-balm",
+                "name": "Aftershave Balm & Splash",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "aftershave balm",
+                  "after shave balm",
+                  "aftershave splash",
+                  "post shave"
+                ],
+                "facets": [
+                  "skin-type",
+                  "alcohol-content"
+                ]
+              },
+              {
+                "id": "beard-care",
+                "name": "Beard Oil, Balm & Wash",
+                "application": "leave-on",
+                "film_risk": "none",
+                "keywords": [
+                  "beard oil",
+                  "beard balm",
+                  "beard wash",
+                  "beard conditioner"
+                ],
+                "facets": [
+                  "hair-type"
+                ]
+              },
+              {
+                "id": "razor",
+                "name": "Razors & Blades",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "razor",
+                  "razor blades",
+                  "safety razor"
+                ],
+                "facets": [
+                  "material"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hair-removal",
+            "name": "Hair Removal",
+            "product_types": [
+              {
+                "id": "depilatory-cream",
+                "name": "Hair Removal Cream",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "hair removal cream",
+                  "depilatory cream"
+                ],
+                "facets": [
+                  "skin-type"
+                ]
+              },
+              {
+                "id": "wax-strips",
+                "name": "Wax & Strips",
+                "application": "rinse-off",
+                "film_risk": "none",
+                "keywords": [
+                  "wax strips",
+                  "waxing kit",
+                  "sugar wax",
+                  "hot wax"
+                ],
+                "facets": [
+                  "skin-type",
+                  "material"
+                ]
+              },
+              {
+                "id": "threading-epilator",
+                "name": "Epilators & Trimmers",
+                "application": "non-contact",
+                "film_risk": "none",
+                "keywords": [
+                  "epilator",
+                  "trimmer",
+                  "body groomer",
+                  "ipl device"
+                ],
+                "facets": [
+                  "format"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "breadcrumb_map": {
+      "face masks": "clay-mask",
+      "lip balm": "lip-balm",
+      "highlighter": "highlighter",
+      "hand cream": "hand-cream",
+      "concealers": "concealer",
+      "toners": "toner",
+      "eye care": "eye-cream",
+      "semi-permanent hair colour": "semi-permanent-hair-colour",
+      "false nails": "press-on-nails",
+      "aftershave": "eau-de-toilette",
+      "eyeshadow": "eyeshadow",
+      "hairspray": "hairspray",
+      "lip liner": "lip-liner",
+      "mousse": "hair-mousse",
+      "permanent hair colour": "permanent-hair-colour",
+      "eyeliner": "eyeliner",
+      "hair bleach": "hair-bleach",
+      "bath and body": "shower-gel",
+      "brows": "eyebrow",
+      "face scrub": "exfoliator",
+      "body wash": "shower-gel",
+      "makeup": "foundation",
+      "root touch up": "root-touch-up",
+      "fragrance": "eau-de-parfum",
+      "foot care": "foot-care",
+      "haircare": "shampoo",
+      "shampoo": "shampoo",
+      "hair dryers": "hair-dryer",
+      "false eyelashes": "false-lashes",
+      "fake tan": "self-tan",
+      "eau de parfum": "eau-de-parfum",
+      "nail treatments": "nail-treatment",
+      "conditioner": "conditioner",
+      "face serum": "face-serum",
+      "eye shadow": "eyeshadow",
+      "face wipes": "cleansing-wipe",
+      "eye liner": "eyeliner",
+      "bath & body": "shower-gel",
+      "shaving": "shaving-prep",
+      "hair masks": "hair-mask",
+      "hair treatments": "hair-mask",
+      "lip care": "lip-balm",
+      "blush": "blusher",
+      "deodorants & antiperspirants": "deodorant-spray",
+      "contouring": "contour",
+      "shower gel": "shower-gel",
+      "soap": "bar-soap",
+      "foundations": "foundation",
+      "womens fragrance": "eau-de-parfum",
+      "bath soak": "bath-soak",
+      "body lotion": "body-lotion",
+      "hair brushes": "hair-brush",
+      "make-up brushes": "makeup-brush",
+      "curl cream": "curl-cream",
+      "body scrub": "body-scrub",
+      "sun cream": "body-sunscreen",
+      "dry shampoo": "dry-shampoo",
+      "hair removal": "depilatory-cream",
+      "liquid lipstick": "liquid-lipstick",
+      "lip oil": "lip-oil",
+      "mascara": "mascara",
+      "perfume": "eau-de-parfum",
+      "hair styling": "hair-gel",
+      "cologne": "eau-de-cologne",
+      "hair oil & serum": "hair-oil",
+      "cleansers": "facial-cleanser",
+      "hair gel": "hair-gel",
+      "wax & pomade": "hair-wax",
+      "heat protection": "heat-protection",
+      "beard care": "beard-care",
+      "women's fragrance": "eau-de-parfum",
+      "tinted moisturiser": "tinted-moisturiser",
+      "moisturisers": "face-moisturiser",
+      "razors": "razor",
+      "suncare": "body-sunscreen",
+      "body moisturiser": "body-lotion",
+      "scalp care": "scalp-scrub",
+      "powder": "face-powder",
+      "gel nails": "gel-polish",
+      "exfoliators": "exfoliator",
+      "breathable nail polish": "breathable-nail-polish",
+      "make-up remover": "micellar-water",
+      "face moisturiser": "face-moisturiser",
+      "serums": "face-serum",
+      "lipstick": "lipstick",
+      "make-up": "foundation",
+      "day cream": "face-moisturiser",
+      "fragrance gift sets": "fragrance-gift-set",
+      "mens grooming": "shaving-prep",
+      "eau de toilette": "eau-de-toilette",
+      "skincare": "face-moisturiser",
+      "hair oils": "hair-oil",
+      "face wash": "facial-cleanser",
+      "attar": "attar",
+      "foundation": "foundation",
+      "face spf": "face-spf",
+      "anti-dandruff": "anti-dandruff",
+      "waxing": "wax-strips",
+      "bath bombs": "bath-bomb",
+      "hair colour": "permanent-hair-colour",
+      "henna": "henna",
+      "bb & cc creams": "tinted-moisturiser",
+      "mens fragrance": "eau-de-toilette",
+      "body mist": "body-mist",
+      "lip gloss": "lip-gloss",
+      "hair care": "shampoo",
+      "face powder": "face-powder",
+      "body butter": "body-butter",
+      "false lashes": "false-lashes",
+      "makeup brushes & tools": "makeup-brush",
+      "concealer": "concealer",
+      "micellar water": "micellar-water",
+      "eyebrows": "eyebrow",
+      "cushion foundation": "cushion-foundation",
+      "blusher": "blusher",
+      "primer": "primer",
+      "beauty sponges": "beauty-sponge",
+      "perfume oil": "perfume-oil",
+      "nail care": "nail-treatment",
+      "body spray": "body-mist",
+      "nail polish remover": "nail-polish-remover",
+      "after sun": "after-sun",
+      "hair mist": "hair-mist",
+      "bronzer": "bronzer",
+      "cleansing balms": "cleansing-balm",
+      "retinol": "retinol-treatment",
+      "blemish & acne": "acne-treatment",
+      "home fragrance": "reed-diffuser",
+      "face care": "face-moisturiser",
+      "hand wash": "hand-wash",
+      "setting spray": "setting-spray",
+      "nail varnish": "nail-polish",
+      "straighteners": "hair-straightener",
+      "deodorant": "deodorant-spray",
+      "leave-in conditioner": "leave-in-conditioner",
+      "night cream": "night-cream",
+      "nail polish": "nail-polish",
+      "candles": "scented-candle",
+      "men's grooming": "shaving-prep",
+      "body oil": "body-oil",
+      "lip tint": "lip-stain",
+      "eye cream": "eye-cream",
+      "face oils": "face-oil",
+      "men's fragrance": "eau-de-toilette",
+      "primers": "primer",
+      "sheet masks": "sheet-mask",
+      "toner": "toner",
+      "self tan": "self-tan"
+    }
+  },
+  "profiles": [
+    {
+      "id": "uk-general",
+      "name": "UK mainstream",
+      "description": "The default. Insect colourants are excluded, topical ethanol from a non-khamr source is treated as doubtful rather than prohibited, and wool and bee products are permitted.",
+      "ethanol_leave_on_tolerated": true,
+      "doubt_is_disqualifying": false
+    },
+    {
+      "id": "jakim-ms2634",
+      "name": "JAKIM / MS 2634",
+      "description": "Follows the Malaysian halal cosmetics standard, which permits non-intoxicating alcohol in cosmetics but requires documented halal sourcing for animal-derived material.",
+      "ethanol_leave_on_tolerated": true,
+      "doubt_is_disqualifying": false
+    },
+    {
+      "id": "bpjph-mui",
+      "name": "BPJPH / MUI",
+      "description": "Indonesian regulator position. Ethanol is acceptable when not derived from the intoxicating-liquor industry, and water-impermeable cosmetics are permitted but must be removed before ablution.",
+      "ethanol_leave_on_tolerated": true,
+      "doubt_is_disqualifying": false
+    },
+    {
+      "id": "strict",
+      "name": "Strict",
+      "description": "Avoids all ambiguity. Any ethanol, any insect derivative and any undocumented animal route is treated as disqualifying.",
+      "ethanol_leave_on_tolerated": false,
+      "doubt_is_disqualifying": true
+    },
+    {
+      "id": "lenient-istihalah",
+      "name": "Istihalah-permissive",
+      "description": "Accepts the transformation argument, so chemically transformed derivatives and weathered animal secretions are treated as permissible.",
+      "ethanol_leave_on_tolerated": true,
+      "doubt_is_disqualifying": false
+    }
+  ]
+}

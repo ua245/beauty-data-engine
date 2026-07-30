@@ -1,0 +1,474 @@
+{
+  "departments": [
+    {
+      "id": "make-up",
+      "name": "Make-up",
+      "categories": [
+        {
+          "id": "face-make-up",
+          "name": "Face",
+          "product_types": [
+            { "id": "primer", "name": "Primer", "application": "leave-on", "film_risk": "possible", "keywords": ["primer", "face primer", "pore filler"], "facets": ["finish", "skin-type", "format"] },
+            { "id": "foundation", "name": "Foundation", "application": "leave-on", "film_risk": "possible", "keywords": ["foundation", "liquid foundation", "serum foundation", "stick foundation"], "facets": ["shade", "coverage", "finish", "spf", "skin-type", "format"] },
+            { "id": "cushion-foundation", "name": "Cushion Foundation", "application": "leave-on", "film_risk": "possible", "keywords": ["cushion foundation", "cushion compact"], "facets": ["shade", "coverage", "finish", "spf"] },
+            { "id": "tinted-moisturiser", "name": "Tinted Moisturiser & BB/CC Cream", "application": "leave-on", "film_risk": "possible", "keywords": ["tinted moisturiser", "tinted moisturizer", "bb cream", "cc cream", "skin tint"], "facets": ["shade", "coverage", "spf", "skin-type"] },
+            { "id": "concealer", "name": "Concealer", "application": "leave-on", "film_risk": "possible", "keywords": ["concealer", "colour corrector", "color corrector"], "facets": ["shade", "coverage", "finish", "format"] },
+            { "id": "face-powder", "name": "Face Powder", "application": "leave-on", "film_risk": "none", "keywords": ["face powder", "setting powder", "loose powder", "pressed powder", "banana powder"], "facets": ["shade", "finish", "format"] },
+            { "id": "blusher", "name": "Blusher", "application": "leave-on", "film_risk": "none", "keywords": ["blusher", "blush", "cheek tint"], "facets": ["shade", "finish", "format"] },
+            { "id": "bronzer", "name": "Bronzer", "application": "leave-on", "film_risk": "none", "keywords": ["bronzer", "bronzing powder"], "facets": ["shade", "finish", "format"] },
+            { "id": "highlighter", "name": "Highlighter", "application": "leave-on", "film_risk": "none", "keywords": ["highlighter", "illuminator", "glow drops"], "facets": ["shade", "finish", "format"] },
+            { "id": "contour", "name": "Contour", "application": "leave-on", "film_risk": "none", "keywords": ["contour", "contour stick", "sculpting stick"], "facets": ["shade", "finish", "format"] },
+            { "id": "setting-spray", "name": "Setting Spray & Fixer", "application": "leave-on", "film_risk": "possible", "keywords": ["setting spray", "fixing spray", "makeup fixer", "finishing spray"], "facets": ["finish", "alcohol-content"] }
+          ]
+        },
+        {
+          "id": "eye-make-up",
+          "name": "Eyes",
+          "product_types": [
+            { "id": "mascara", "name": "Mascara", "application": "leave-on", "film_risk": "inherent", "keywords": ["mascara"], "facets": ["shade", "finish", "waterproof", "format"] },
+            { "id": "eyeliner", "name": "Eyeliner", "application": "leave-on", "film_risk": "possible", "keywords": ["eyeliner", "eye liner", "kajal", "kohl", "liquid liner"], "facets": ["shade", "finish", "waterproof", "format"] },
+            { "id": "eyeshadow", "name": "Eyeshadow", "application": "leave-on", "film_risk": "none", "keywords": ["eyeshadow", "eye shadow", "eyeshadow palette", "eye palette"], "facets": ["shade", "finish", "format"] },
+            { "id": "eyebrow", "name": "Eyebrows", "application": "leave-on", "film_risk": "possible", "keywords": ["eyebrow", "brow pencil", "brow gel", "brow pomade", "brow tint", "brow lamination"], "facets": ["shade", "finish", "format"] },
+            { "id": "false-lashes", "name": "False Lashes & Adhesive", "application": "leave-on", "film_risk": "inherent", "keywords": ["false lashes", "false eyelashes", "lash adhesive", "lash glue", "strip lashes"], "facets": ["format", "material"] },
+            { "id": "lash-brow-serum", "name": "Lash & Brow Serum", "application": "leave-on", "film_risk": "none", "keywords": ["lash serum", "eyelash serum", "brow serum"], "facets": ["format"] },
+            { "id": "eye-primer", "name": "Eye Primer", "application": "leave-on", "film_risk": "possible", "keywords": ["eye primer", "eyeshadow primer", "lid primer"], "facets": ["shade", "finish"] }
+          ]
+        },
+        {
+          "id": "lip-make-up",
+          "name": "Lips",
+          "product_types": [
+            { "id": "lipstick", "name": "Lipstick", "application": "leave-on", "film_risk": "possible", "keywords": ["lipstick", "lip colour", "lip color", "lip crayon"], "facets": ["shade", "finish", "transfer-proof"] },
+            { "id": "liquid-lipstick", "name": "Liquid Lipstick", "application": "leave-on", "film_risk": "inherent", "keywords": ["liquid lipstick", "liquid lip", "lip lacquer", "matte liquid lip"], "facets": ["shade", "finish", "transfer-proof"] },
+            { "id": "lip-gloss", "name": "Lip Gloss", "application": "leave-on", "film_risk": "possible", "keywords": ["lip gloss", "lipgloss", "gloss balm"], "facets": ["shade", "finish"] },
+            { "id": "lip-liner", "name": "Lip Liner", "application": "leave-on", "film_risk": "possible", "keywords": ["lip liner", "lip pencil"], "facets": ["shade", "finish"] },
+            { "id": "lip-balm", "name": "Lip Balm & Treatment", "application": "leave-on", "film_risk": "possible", "keywords": ["lip balm", "lip treatment", "lip mask", "lip butter", "lip salve"], "facets": ["shade", "spf", "format"] },
+            { "id": "lip-oil", "name": "Lip Oil", "application": "leave-on", "film_risk": "none", "keywords": ["lip oil", "lip tinted oil"], "facets": ["shade", "finish"] },
+            { "id": "lip-stain", "name": "Lip Stain & Tint", "application": "leave-on", "film_risk": "possible", "keywords": ["lip stain", "lip tint", "lip ink"], "facets": ["shade", "finish", "transfer-proof"] },
+            { "id": "lip-plumper", "name": "Lip Plumper", "application": "leave-on", "film_risk": "none", "keywords": ["lip plumper", "plumping gloss"], "facets": ["shade", "finish"] }
+          ]
+        },
+        {
+          "id": "nails",
+          "name": "Nails",
+          "product_types": [
+            { "id": "nail-polish", "name": "Nail Polish", "application": "leave-on", "film_risk": "inherent", "keywords": ["nail polish", "nail varnish", "nail lacquer", "nail colour", "nail enamel"], "facets": ["shade", "finish", "water-permeable"] },
+            { "id": "breathable-nail-polish", "name": "Breathable Nail Polish", "application": "leave-on", "film_risk": "possible", "keywords": ["breathable nail polish", "breathable polish", "wudu friendly polish", "halal nail polish", "water permeable polish"], "facets": ["shade", "finish", "water-permeable"] },
+            { "id": "gel-polish", "name": "Gel Polish & System", "application": "leave-on", "film_risk": "inherent", "keywords": ["gel polish", "gel nail", "uv gel", "builder gel"], "facets": ["shade", "finish"] },
+            { "id": "nail-treatment", "name": "Nail Treatment & Strengthener", "application": "leave-on", "film_risk": "possible", "keywords": ["nail treatment", "nail strengthener", "nail hardener", "cuticle oil"], "facets": ["format"] },
+            { "id": "base-top-coat", "name": "Base & Top Coat", "application": "leave-on", "film_risk": "inherent", "keywords": ["base coat", "top coat", "topcoat", "basecoat"], "facets": ["finish"] },
+            { "id": "nail-polish-remover", "name": "Nail Polish Remover", "application": "rinse-off", "film_risk": "none", "keywords": ["nail polish remover", "nail varnish remover", "acetone remover"], "facets": ["format", "alcohol-content"] },
+            { "id": "press-on-nails", "name": "Press-on & False Nails", "application": "leave-on", "film_risk": "inherent", "keywords": ["press on nails", "false nails", "stick on nails", "nail tips"], "facets": ["shade", "format"] }
+          ]
+        },
+        {
+          "id": "make-up-accessories",
+          "name": "Brushes & Tools",
+          "product_types": [
+            { "id": "makeup-brush", "name": "Make-up Brush", "application": "non-contact", "film_risk": "none", "keywords": ["makeup brush", "make up brush", "brush set", "foundation brush", "blending brush"], "facets": ["material", "format"] },
+            { "id": "beauty-sponge", "name": "Beauty Sponge & Applicator", "application": "non-contact", "film_risk": "none", "keywords": ["beauty sponge", "blender sponge", "makeup sponge", "applicator"], "facets": ["material"] },
+            { "id": "lash-curler", "name": "Lash Curler & Tweezers", "application": "non-contact", "film_risk": "none", "keywords": ["eyelash curler", "lash curler", "tweezers"], "facets": ["material"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skincare",
+      "name": "Skincare",
+      "categories": [
+        {
+          "id": "cleansers-toners",
+          "name": "Cleansers & Toners",
+          "product_types": [
+            { "id": "facial-cleanser", "name": "Facial Cleanser & Wash", "application": "rinse-off", "film_risk": "none", "keywords": ["facial cleanser", "face wash", "cleansing gel", "foaming cleanser", "cleansing cream", "face cleanser"], "facets": ["skin-type", "format", "free-from"] },
+            { "id": "cleansing-balm", "name": "Cleansing Balm & Oil", "application": "rinse-off", "film_risk": "none", "keywords": ["cleansing balm", "cleansing oil", "makeup melting balm"], "facets": ["skin-type", "format"] },
+            { "id": "micellar-water", "name": "Micellar Water & Make-up Remover", "application": "rinse-off", "film_risk": "none", "keywords": ["micellar water", "makeup remover", "eye makeup remover", "cleansing water"], "facets": ["skin-type", "alcohol-content"] },
+            { "id": "cleansing-wipe", "name": "Cleansing Wipes", "application": "rinse-off", "film_risk": "none", "keywords": ["cleansing wipes", "face wipes", "makeup wipes"], "facets": ["skin-type"] },
+            { "id": "toner", "name": "Toner & Essence", "application": "leave-on", "film_risk": "none", "keywords": ["toner", "toning water", "essence", "toning lotion"], "facets": ["skin-type", "alcohol-content"] },
+            { "id": "exfoliator", "name": "Exfoliator & Peel", "application": "rinse-off", "film_risk": "none", "keywords": ["exfoliator", "face scrub", "chemical peel", "exfoliating pads", "aha peel"], "facets": ["skin-type", "format", "active"] }
+          ]
+        },
+        {
+          "id": "moisturisers",
+          "name": "Moisturisers",
+          "product_types": [
+            { "id": "face-moisturiser", "name": "Face Moisturiser", "application": "leave-on", "film_risk": "none", "keywords": ["face moisturiser", "face moisturizer", "day cream", "face cream", "moisturising lotion", "face gel cream"], "facets": ["skin-type", "spf", "format", "free-from"] },
+            { "id": "night-cream", "name": "Night Cream", "application": "leave-on", "film_risk": "none", "keywords": ["night cream", "sleeping cream", "night moisturiser"], "facets": ["skin-type", "active"] },
+            { "id": "face-oil", "name": "Face Oil", "application": "leave-on", "film_risk": "none", "keywords": ["face oil", "facial oil", "rosehip oil", "marula oil"], "facets": ["skin-type"] },
+            { "id": "neck-cream", "name": "Neck & Décolleté Cream", "application": "leave-on", "film_risk": "none", "keywords": ["neck cream", "neck and decollete", "decollete cream"], "facets": ["skin-type"] }
+          ]
+        },
+        {
+          "id": "skincare-treatments",
+          "name": "Serums & Treatments",
+          "product_types": [
+            { "id": "face-serum", "name": "Face Serum", "application": "leave-on", "film_risk": "none", "keywords": ["face serum", "facial serum", "hyaluronic serum", "niacinamide serum", "vitamin c serum", "serum"], "facets": ["skin-type", "active", "free-from"] },
+            { "id": "retinol-treatment", "name": "Retinol & Retinoid", "application": "leave-on", "film_risk": "none", "keywords": ["retinol", "retinoid", "retinal", "granactive retinoid"], "facets": ["skin-type", "active"] },
+            { "id": "acne-treatment", "name": "Blemish & Acne Treatment", "application": "leave-on", "film_risk": "none", "keywords": ["acne treatment", "blemish treatment", "spot treatment", "salicylic acid treatment", "blemish gel"], "facets": ["skin-type", "active"] },
+            { "id": "ampoule", "name": "Ampoule & Booster", "application": "leave-on", "film_risk": "none", "keywords": ["ampoule", "booster drops", "concentrate drops"], "facets": ["active"] }
+          ]
+        },
+        {
+          "id": "eye-skincare",
+          "name": "Eye Care",
+          "product_types": [
+            { "id": "eye-cream", "name": "Eye Cream", "application": "leave-on", "film_risk": "none", "keywords": ["eye cream", "under eye cream"], "facets": ["skin-type", "active"] },
+            { "id": "eye-serum", "name": "Eye Serum & Gel", "application": "leave-on", "film_risk": "none", "keywords": ["eye serum", "eye gel", "eye concentrate"], "facets": ["active"] },
+            { "id": "eye-patch", "name": "Eye Patches & Masks", "application": "rinse-off", "film_risk": "none", "keywords": ["eye patches", "eye masks", "under eye patches", "hydrogel patches"], "facets": ["format"] }
+          ]
+        },
+        {
+          "id": "face-masks",
+          "name": "Face Masks",
+          "product_types": [
+            { "id": "sheet-mask", "name": "Sheet Mask", "application": "rinse-off", "film_risk": "none", "keywords": ["sheet mask", "bio cellulose mask"], "facets": ["skin-type", "active"] },
+            { "id": "clay-mask", "name": "Clay & Mud Mask", "application": "rinse-off", "film_risk": "none", "keywords": ["clay mask", "mud mask", "charcoal mask"], "facets": ["skin-type"] },
+            { "id": "overnight-mask", "name": "Overnight & Sleeping Mask", "application": "leave-on", "film_risk": "none", "keywords": ["overnight mask", "sleeping mask", "sleeping pack"], "facets": ["skin-type"] },
+            { "id": "peel-off-mask", "name": "Peel-off Mask", "application": "rinse-off", "film_risk": "inherent", "keywords": ["peel off mask", "peel mask"], "facets": ["skin-type"] }
+          ]
+        },
+        {
+          "id": "suncare-tanning",
+          "name": "Suncare & Tanning",
+          "product_types": [
+            { "id": "face-spf", "name": "Face SPF", "application": "leave-on", "film_risk": "possible", "keywords": ["face spf", "facial sunscreen", "face sunscreen", "uv fluid"], "facets": ["spf", "skin-type", "finish"] },
+            { "id": "body-sunscreen", "name": "Body Sunscreen", "application": "leave-on", "film_risk": "possible", "keywords": ["sunscreen", "sun lotion", "sun cream", "sun spray", "sun milk"], "facets": ["spf", "format"] },
+            { "id": "after-sun", "name": "After Sun", "application": "leave-on", "film_risk": "none", "keywords": ["after sun", "aftersun"], "facets": ["format"] },
+            { "id": "self-tan", "name": "Self Tan", "application": "leave-on", "film_risk": "possible", "keywords": ["self tan", "fake tan", "tanning mousse", "tanning drops", "gradual tan"], "facets": ["shade", "format", "alcohol-content"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haircare",
+      "name": "Haircare",
+      "categories": [
+        {
+          "id": "shampoo-conditioner",
+          "name": "Shampoo & Conditioner",
+          "product_types": [
+            { "id": "shampoo", "name": "Shampoo", "application": "rinse-off", "film_risk": "none", "keywords": ["shampoo"], "facets": ["hair-type", "hair-concern", "free-from", "format"] },
+            { "id": "conditioner", "name": "Conditioner", "application": "rinse-off", "film_risk": "none", "keywords": ["conditioner", "conditioning rinse"], "facets": ["hair-type", "hair-concern", "free-from"] },
+            { "id": "dry-shampoo", "name": "Dry Shampoo", "application": "leave-on", "film_risk": "none", "keywords": ["dry shampoo"], "facets": ["hair-type", "alcohol-content"] },
+            { "id": "co-wash", "name": "Co-wash & Cleansing Conditioner", "application": "rinse-off", "film_risk": "none", "keywords": ["co wash", "cowash", "cleansing conditioner"], "facets": ["hair-type"] }
+          ]
+        },
+        {
+          "id": "hair-treatments",
+          "name": "Hair Treatments",
+          "product_types": [
+            { "id": "hair-mask", "name": "Hair Mask", "application": "rinse-off", "film_risk": "none", "keywords": ["hair mask", "deep conditioning mask", "hair treatment mask"], "facets": ["hair-type", "hair-concern"] },
+            { "id": "leave-in-conditioner", "name": "Leave-in Conditioner", "application": "leave-on", "film_risk": "none", "keywords": ["leave in conditioner", "leave in", "detangling spray"], "facets": ["hair-type", "hair-concern"] },
+            { "id": "hair-oil", "name": "Hair Oil & Serum", "application": "leave-on", "film_risk": "none", "keywords": ["hair oil", "hair serum", "argan oil hair", "hair elixir"], "facets": ["hair-type", "hair-concern"] },
+            { "id": "bond-repair", "name": "Bond Repair & Protein Treatment", "application": "rinse-off", "film_risk": "none", "keywords": ["bond repair", "bond builder", "protein treatment", "keratin treatment"], "facets": ["hair-concern"] },
+            { "id": "heat-protection", "name": "Heat Protection", "application": "leave-on", "film_risk": "possible", "keywords": ["heat protection", "heat protectant", "thermal protector"], "facets": ["hair-type"] }
+          ]
+        },
+        {
+          "id": "hair-styling",
+          "name": "Styling",
+          "product_types": [
+            { "id": "hairspray", "name": "Hairspray", "application": "leave-on", "film_risk": "inherent", "keywords": ["hairspray", "hair spray", "finishing spray hair"], "facets": ["hold", "alcohol-content"] },
+            { "id": "hair-gel", "name": "Hair Gel", "application": "leave-on", "film_risk": "inherent", "keywords": ["hair gel", "styling gel"], "facets": ["hold", "hair-type"] },
+            { "id": "hair-mousse", "name": "Mousse & Foam", "application": "leave-on", "film_risk": "possible", "keywords": ["hair mousse", "styling foam", "volumising mousse"], "facets": ["hold", "hair-type"] },
+            { "id": "hair-wax", "name": "Wax, Clay & Pomade", "application": "leave-on", "film_risk": "possible", "keywords": ["hair wax", "hair clay", "pomade", "styling paste"], "facets": ["hold", "finish"] },
+            { "id": "curl-cream", "name": "Curl Cream & Definer", "application": "leave-on", "film_risk": "possible", "keywords": ["curl cream", "curl definer", "curl custard", "curl gel"], "facets": ["hair-type", "hold"] },
+            { "id": "edge-control", "name": "Edge Control & Smoothing", "application": "leave-on", "film_risk": "inherent", "keywords": ["edge control", "edge tamer", "smoothing gel"], "facets": ["hold", "hair-type"] },
+            { "id": "texturising-spray", "name": "Texturising & Volume Spray", "application": "leave-on", "film_risk": "possible", "keywords": ["texturising spray", "texturizing spray", "sea salt spray", "volume spray"], "facets": ["hold", "alcohol-content"] }
+          ]
+        },
+        {
+          "id": "hair-colour",
+          "name": "Hair Colour",
+          "product_types": [
+            { "id": "permanent-hair-colour", "name": "Permanent Hair Colour", "application": "rinse-off", "film_risk": "none", "keywords": ["permanent hair colour", "permanent hair color", "hair dye", "hair colourant"], "facets": ["shade", "hair-concern"] },
+            { "id": "semi-permanent-hair-colour", "name": "Semi-permanent Colour", "application": "rinse-off", "film_risk": "none", "keywords": ["semi permanent colour", "semi permanent color", "demi permanent", "colour mask", "hair gloss"], "facets": ["shade"] },
+            { "id": "hair-bleach", "name": "Bleach & Lightener", "application": "rinse-off", "film_risk": "none", "keywords": ["hair bleach", "lightening kit", "bleach kit", "hair lightener"], "facets": ["shade"] },
+            { "id": "root-touch-up", "name": "Root Touch-up", "application": "leave-on", "film_risk": "possible", "keywords": ["root touch up", "root cover up", "root spray", "grey coverage spray"], "facets": ["shade"] },
+            { "id": "henna", "name": "Henna & Plant Colour", "application": "rinse-off", "film_risk": "none", "keywords": ["henna", "mehndi", "indigo hair", "cassia"], "facets": ["shade", "free-from"] }
+          ]
+        },
+        {
+          "id": "scalp-care",
+          "name": "Scalp Care",
+          "product_types": [
+            { "id": "scalp-scrub", "name": "Scalp Scrub & Exfoliant", "application": "rinse-off", "film_risk": "none", "keywords": ["scalp scrub", "scalp exfoliant", "scalp peel"], "facets": ["hair-concern"] },
+            { "id": "anti-dandruff", "name": "Anti-dandruff", "application": "rinse-off", "film_risk": "none", "keywords": ["anti dandruff", "antidandruff", "dandruff shampoo", "ketoconazole shampoo"], "facets": ["hair-concern", "active"] },
+            { "id": "hair-growth-serum", "name": "Hair & Scalp Serum", "application": "leave-on", "film_risk": "none", "keywords": ["hair growth serum", "scalp serum", "densifying serum", "minoxidil"], "facets": ["hair-concern", "active"] }
+          ]
+        },
+        {
+          "id": "hair-tools",
+          "name": "Hair Tools & Accessories",
+          "product_types": [
+            { "id": "hair-brush", "name": "Brushes & Combs", "application": "non-contact", "film_risk": "none", "keywords": ["hair brush", "detangling brush", "wide tooth comb", "paddle brush"], "facets": ["material"] },
+            { "id": "hair-dryer", "name": "Hair Dryer", "application": "non-contact", "film_risk": "none", "keywords": ["hair dryer", "hairdryer", "diffuser dryer"], "facets": ["format"] },
+            { "id": "hair-straightener", "name": "Straighteners & Curlers", "application": "non-contact", "film_risk": "none", "keywords": ["hair straightener", "straighteners", "curling tong", "curling wand", "hot brush"], "facets": ["format"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fragrance",
+      "name": "Fragrance",
+      "categories": [
+        {
+          "id": "fine-fragrance",
+          "name": "Fine Fragrance",
+          "product_types": [
+            { "id": "eau-de-parfum", "name": "Eau de Parfum", "application": "evaporative", "film_risk": "none", "keywords": ["eau de parfum", "edp"], "facets": ["fragrance-family", "audience", "concentration", "alcohol-content", "size"] },
+            { "id": "eau-de-toilette", "name": "Eau de Toilette", "application": "evaporative", "film_risk": "none", "keywords": ["eau de toilette", "edt"], "facets": ["fragrance-family", "audience", "concentration", "alcohol-content", "size"] },
+            { "id": "parfum-extrait", "name": "Parfum & Extrait", "application": "evaporative", "film_risk": "none", "keywords": ["extrait de parfum", "parfum extrait", "pure parfum"], "facets": ["fragrance-family", "audience", "concentration", "alcohol-content"] },
+            { "id": "eau-de-cologne", "name": "Cologne & Eau Fraîche", "application": "evaporative", "film_risk": "none", "keywords": ["eau de cologne", "cologne", "eau fraiche"], "facets": ["fragrance-family", "audience", "alcohol-content"] }
+          ]
+        },
+        {
+          "id": "alcohol-free-fragrance",
+          "name": "Alcohol-free Fragrance",
+          "product_types": [
+            { "id": "attar", "name": "Attar & Oud Oil", "application": "leave-on", "film_risk": "none", "keywords": ["attar", "ittar", "oud oil", "mukhallat", "bakhoor oil"], "facets": ["fragrance-family", "audience", "alcohol-content"] },
+            { "id": "perfume-oil", "name": "Perfume Oil", "application": "leave-on", "film_risk": "none", "keywords": ["perfume oil", "fragrance oil", "roll on perfume"], "facets": ["fragrance-family", "audience", "alcohol-content"] },
+            { "id": "solid-perfume", "name": "Solid Perfume", "application": "leave-on", "film_risk": "possible", "keywords": ["solid perfume", "perfume balm"], "facets": ["fragrance-family", "audience"] },
+            { "id": "alcohol-free-mist", "name": "Alcohol-free Body Mist", "application": "leave-on", "film_risk": "none", "keywords": ["alcohol free body mist", "alcohol free mist", "water based perfume"], "facets": ["fragrance-family", "audience", "alcohol-content"] }
+          ]
+        },
+        {
+          "id": "body-fragrance",
+          "name": "Body Fragrance",
+          "product_types": [
+            { "id": "body-mist", "name": "Body Mist & Spray", "application": "evaporative", "film_risk": "none", "keywords": ["body mist", "body spray", "fragrance mist"], "facets": ["fragrance-family", "audience", "alcohol-content"] },
+            { "id": "hair-mist", "name": "Hair Mist", "application": "leave-on", "film_risk": "none", "keywords": ["hair mist", "hair perfume", "hair fragrance"], "facets": ["fragrance-family", "alcohol-content"] },
+            { "id": "fragrance-gift-set", "name": "Fragrance Gift Set", "application": "evaporative", "film_risk": "none", "keywords": ["fragrance gift set", "perfume gift set", "discovery set"], "facets": ["fragrance-family", "audience"] }
+          ]
+        },
+        {
+          "id": "home-fragrance",
+          "name": "Home Fragrance",
+          "product_types": [
+            { "id": "scented-candle", "name": "Scented Candle", "application": "non-contact", "film_risk": "none", "keywords": ["scented candle", "candle"], "facets": ["fragrance-family", "material"] },
+            { "id": "reed-diffuser", "name": "Diffuser & Room Spray", "application": "non-contact", "film_risk": "none", "keywords": ["reed diffuser", "room spray", "home mist", "bakhoor", "incense"], "facets": ["fragrance-family"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bath-body",
+      "name": "Bath & Body",
+      "categories": [
+        {
+          "id": "bathing",
+          "name": "Bathing & Showering",
+          "product_types": [
+            { "id": "shower-gel", "name": "Shower Gel & Body Wash", "application": "rinse-off", "film_risk": "none", "keywords": ["shower gel", "body wash", "shower cream", "shower foam"], "facets": ["skin-type", "free-from", "size"] },
+            { "id": "bar-soap", "name": "Bar Soap & Cleansing Bar", "application": "rinse-off", "film_risk": "none", "keywords": ["bar soap", "soap bar", "cleansing bar", "beauty bar"], "facets": ["skin-type", "free-from"] },
+            { "id": "bath-soak", "name": "Bath Soak & Salts", "application": "rinse-off", "film_risk": "none", "keywords": ["bath soak", "bath salts", "bubble bath", "bath milk"], "facets": ["skin-type"] },
+            { "id": "bath-bomb", "name": "Bath Bomb & Fizzer", "application": "rinse-off", "film_risk": "none", "keywords": ["bath bomb", "bath fizzer"], "facets": ["fragrance-family"] },
+            { "id": "shower-oil", "name": "Shower Oil", "application": "rinse-off", "film_risk": "none", "keywords": ["shower oil", "cleansing oil body"], "facets": ["skin-type"] }
+          ]
+        },
+        {
+          "id": "body-moisturisers",
+          "name": "Body Moisturisers",
+          "product_types": [
+            { "id": "body-lotion", "name": "Body Lotion & Cream", "application": "leave-on", "film_risk": "none", "keywords": ["body lotion", "body cream", "body milk", "body moisturiser"], "facets": ["skin-type", "free-from", "size"] },
+            { "id": "body-butter", "name": "Body Butter", "application": "leave-on", "film_risk": "none", "keywords": ["body butter", "shea butter body"], "facets": ["skin-type"] },
+            { "id": "body-oil", "name": "Body Oil", "application": "leave-on", "film_risk": "none", "keywords": ["body oil", "dry body oil"], "facets": ["skin-type"] },
+            { "id": "body-scrub", "name": "Body Scrub & Exfoliant", "application": "rinse-off", "film_risk": "none", "keywords": ["body scrub", "body exfoliant", "body polish", "sugar scrub"], "facets": ["skin-type"] }
+          ]
+        },
+        {
+          "id": "deodorants",
+          "name": "Deodorant & Antiperspirant",
+          "product_types": [
+            { "id": "deodorant-spray", "name": "Deodorant Spray", "application": "leave-on", "film_risk": "none", "keywords": ["deodorant spray", "body spray deodorant", "antiperspirant spray"], "facets": ["alcohol-content", "free-from"] },
+            { "id": "deodorant-roll-on", "name": "Roll-on & Stick", "application": "leave-on", "film_risk": "possible", "keywords": ["roll on deodorant", "deodorant stick", "deodorant cream"], "facets": ["alcohol-content", "free-from"] }
+          ]
+        },
+        {
+          "id": "hand-foot-care",
+          "name": "Hand & Foot Care",
+          "product_types": [
+            { "id": "hand-cream", "name": "Hand Cream", "application": "leave-on", "film_risk": "none", "keywords": ["hand cream", "hand lotion", "hand balm"], "facets": ["skin-type", "size"] },
+            { "id": "hand-wash", "name": "Hand Wash & Sanitiser", "application": "rinse-off", "film_risk": "none", "keywords": ["hand wash", "hand soap", "hand sanitiser", "hand sanitizer", "hand gel"], "facets": ["alcohol-content"] },
+            { "id": "foot-care", "name": "Foot Care", "application": "leave-on", "film_risk": "none", "keywords": ["foot cream", "foot scrub", "foot mask", "heel balm"], "facets": ["skin-type"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mens-grooming",
+      "name": "Men's Grooming",
+      "categories": [
+        {
+          "id": "shaving",
+          "name": "Shaving & Beard",
+          "product_types": [
+            { "id": "shaving-prep", "name": "Shaving Foam, Gel & Cream", "application": "rinse-off", "film_risk": "none", "keywords": ["shaving foam", "shaving gel", "shaving cream", "shave butter"], "facets": ["skin-type"] },
+            { "id": "aftershave-balm", "name": "Aftershave Balm & Splash", "application": "leave-on", "film_risk": "none", "keywords": ["aftershave balm", "after shave balm", "aftershave splash", "post shave"], "facets": ["skin-type", "alcohol-content"] },
+            { "id": "beard-care", "name": "Beard Oil, Balm & Wash", "application": "leave-on", "film_risk": "none", "keywords": ["beard oil", "beard balm", "beard wash", "beard conditioner"], "facets": ["hair-type"] },
+            { "id": "razor", "name": "Razors & Blades", "application": "non-contact", "film_risk": "none", "keywords": ["razor", "razor blades", "safety razor"], "facets": ["material"] }
+          ]
+        },
+        {
+          "id": "hair-removal",
+          "name": "Hair Removal",
+          "product_types": [
+            { "id": "depilatory-cream", "name": "Hair Removal Cream", "application": "rinse-off", "film_risk": "none", "keywords": ["hair removal cream", "depilatory cream"], "facets": ["skin-type"] },
+            { "id": "wax-strips", "name": "Wax & Strips", "application": "rinse-off", "film_risk": "none", "keywords": ["wax strips", "waxing kit", "sugar wax", "hot wax"], "facets": ["skin-type", "material"] },
+            { "id": "threading-epilator", "name": "Epilators & Trimmers", "application": "non-contact", "film_risk": "none", "keywords": ["epilator", "trimmer", "body groomer", "ipl device"], "facets": ["format"] }
+          ]
+        }
+      ]
+    }
+  ],
+  "breadcrumb_map": {
+    "make-up": "foundation",
+    "makeup": "foundation",
+    "foundation": "foundation",
+    "foundations": "foundation",
+    "cushion foundation": "cushion-foundation",
+    "bb & cc creams": "tinted-moisturiser",
+    "tinted moisturiser": "tinted-moisturiser",
+    "concealer": "concealer",
+    "concealers": "concealer",
+    "face powder": "face-powder",
+    "powder": "face-powder",
+    "blusher": "blusher",
+    "blush": "blusher",
+    "bronzer": "bronzer",
+    "highlighter": "highlighter",
+    "contouring": "contour",
+    "primer": "primer",
+    "primers": "primer",
+    "setting spray": "setting-spray",
+    "mascara": "mascara",
+    "eyeliner": "eyeliner",
+    "eye liner": "eyeliner",
+    "eyeshadow": "eyeshadow",
+    "eye shadow": "eyeshadow",
+    "eyebrows": "eyebrow",
+    "brows": "eyebrow",
+    "false eyelashes": "false-lashes",
+    "false lashes": "false-lashes",
+    "lipstick": "lipstick",
+    "liquid lipstick": "liquid-lipstick",
+    "lip gloss": "lip-gloss",
+    "lip liner": "lip-liner",
+    "lip balm": "lip-balm",
+    "lip care": "lip-balm",
+    "lip oil": "lip-oil",
+    "lip tint": "lip-stain",
+    "nail polish": "nail-polish",
+    "nail varnish": "nail-polish",
+    "breathable nail polish": "breathable-nail-polish",
+    "gel nails": "gel-polish",
+    "nail treatments": "nail-treatment",
+    "nail care": "nail-treatment",
+    "nail polish remover": "nail-polish-remover",
+    "false nails": "press-on-nails",
+    "make-up brushes": "makeup-brush",
+    "makeup brushes & tools": "makeup-brush",
+    "beauty sponges": "beauty-sponge",
+    "skincare": "face-moisturiser",
+    "face care": "face-moisturiser",
+    "cleansers": "facial-cleanser",
+    "face wash": "facial-cleanser",
+    "cleansing balms": "cleansing-balm",
+    "micellar water": "micellar-water",
+    "make-up remover": "micellar-water",
+    "face wipes": "cleansing-wipe",
+    "toners": "toner",
+    "toner": "toner",
+    "exfoliators": "exfoliator",
+    "face scrub": "exfoliator",
+    "moisturisers": "face-moisturiser",
+    "face moisturiser": "face-moisturiser",
+    "day cream": "face-moisturiser",
+    "night cream": "night-cream",
+    "face oils": "face-oil",
+    "serums": "face-serum",
+    "face serum": "face-serum",
+    "retinol": "retinol-treatment",
+    "blemish & acne": "acne-treatment",
+    "eye cream": "eye-cream",
+    "eye care": "eye-cream",
+    "face masks": "clay-mask",
+    "sheet masks": "sheet-mask",
+    "suncare": "body-sunscreen",
+    "sun cream": "body-sunscreen",
+    "face spf": "face-spf",
+    "after sun": "after-sun",
+    "fake tan": "self-tan",
+    "self tan": "self-tan",
+    "haircare": "shampoo",
+    "hair care": "shampoo",
+    "shampoo": "shampoo",
+    "conditioner": "conditioner",
+    "dry shampoo": "dry-shampoo",
+    "hair masks": "hair-mask",
+    "hair treatments": "hair-mask",
+    "leave-in conditioner": "leave-in-conditioner",
+    "hair oils": "hair-oil",
+    "hair oil & serum": "hair-oil",
+    "heat protection": "heat-protection",
+    "hair styling": "hair-gel",
+    "hairspray": "hairspray",
+    "hair gel": "hair-gel",
+    "mousse": "hair-mousse",
+    "wax & pomade": "hair-wax",
+    "curl cream": "curl-cream",
+    "hair colour": "permanent-hair-colour",
+    "permanent hair colour": "permanent-hair-colour",
+    "semi-permanent hair colour": "semi-permanent-hair-colour",
+    "hair bleach": "hair-bleach",
+    "root touch up": "root-touch-up",
+    "henna": "henna",
+    "scalp care": "scalp-scrub",
+    "anti-dandruff": "anti-dandruff",
+    "hair brushes": "hair-brush",
+    "hair dryers": "hair-dryer",
+    "straighteners": "hair-straightener",
+    "fragrance": "eau-de-parfum",
+    "perfume": "eau-de-parfum",
+    "womens fragrance": "eau-de-parfum",
+    "women's fragrance": "eau-de-parfum",
+    "mens fragrance": "eau-de-toilette",
+    "men's fragrance": "eau-de-toilette",
+    "eau de parfum": "eau-de-parfum",
+    "eau de toilette": "eau-de-toilette",
+    "aftershave": "eau-de-toilette",
+    "cologne": "eau-de-cologne",
+    "attar": "attar",
+    "perfume oil": "perfume-oil",
+    "body mist": "body-mist",
+    "body spray": "body-mist",
+    "hair mist": "hair-mist",
+    "fragrance gift sets": "fragrance-gift-set",
+    "candles": "scented-candle",
+    "home fragrance": "reed-diffuser",
+    "bath & body": "shower-gel",
+    "bath and body": "shower-gel",
+    "shower gel": "shower-gel",
+    "body wash": "shower-gel",
+    "soap": "bar-soap",
+    "bath soak": "bath-soak",
+    "bath bombs": "bath-bomb",
+    "body lotion": "body-lotion",
+    "body moisturiser": "body-lotion",
+    "body butter": "body-butter",
+    "body oil": "body-oil",
+    "body scrub": "body-scrub",
+    "deodorant": "deodorant-spray",
+    "deodorants & antiperspirants": "deodorant-spray",
+    "hand cream": "hand-cream",
+    "hand wash": "hand-wash",
+    "foot care": "foot-care",
+    "mens grooming": "shaving-prep",
+    "men's grooming": "shaving-prep",
+    "shaving": "shaving-prep",
+    "beard care": "beard-care",
+    "razors": "razor",
+    "hair removal": "depilatory-cream",
+    "waxing": "wax-strips"
+  }
+}

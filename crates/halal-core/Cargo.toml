@@ -1,0 +1,22 @@
+[package]
+name = "halal-core"
+description = "Domain model, INCI parsing, taxonomy and the halal assessment engine for the beauty data engine."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+regex.workspace = true
+once_cell.workspace = true
+unicode-normalization.workspace = true
+sha2.workspace = true
+hex.workspace = true
+strsim.workspace = true
+indexmap.workspace = true
+tracing.workspace = true
