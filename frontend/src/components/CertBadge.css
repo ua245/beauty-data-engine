@@ -1,0 +1,20 @@
+.cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: linear-gradient(135deg, var(--muted-teal), #5a9580);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.cert-badge__body {
+  text-transform: uppercase;
+}
+
+.cert-badge__status {
+  opacity: 0.9;
+}

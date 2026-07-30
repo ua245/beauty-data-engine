@@ -1,0 +1,59 @@
+:root {
+  --cotton-rose: #efc7c2;
+  --powder-petal: #ffe5d4;
+  --ash-grey: #bfd3c1;
+  --muted-teal: #68a691;
+  --mauve-shadow: #694f5d;
+
+  --gradient-main: linear-gradient(135deg, var(--cotton-rose), var(--powder-petal), var(--ash-grey));
+  --gradient-accent: linear-gradient(90deg, var(--muted-teal), var(--mauve-shadow));
+
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-soft: 0 4px 24px rgba(105, 79, 93, 0.08);
+  --shadow-card: 0 8px 32px rgba(105, 79, 93, 0.12);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--powder-petal);
+  color: var(--mauve-shadow);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select {
+  font-family: inherit;
+}
+
+a {
+  color: var(--muted-teal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

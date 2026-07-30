@@ -1,0 +1,228 @@
+.product-detail-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(105, 79, 93, 0.4);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 24px;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.product-detail {
+  background: white;
+  border-radius: var(--radius-lg);
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: var(--shadow-card);
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.product-detail__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--cotton-rose);
+  color: var(--mauve-shadow);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transition: background 0.2s;
+}
+
+.product-detail__close:hover {
+  background: var(--ash-grey);
+}
+
+.product-detail__layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 0;
+}
+
+@media (max-width: 768px) {
+  .product-detail__layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-detail__image-section {
+  background: var(--gradient-main);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-detail__image {
+  width: 100%;
+  max-width: 280px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
+.product-detail__info {
+  padding: 32px;
+}
+
+.product-detail__brand {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted-teal);
+}
+
+.product-detail__name {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 8px 0 12px;
+  line-height: 1.3;
+}
+
+.product-detail__meta-row {
+  display: flex;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--mauve-shadow);
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.product-detail__price {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.product-detail__certs,
+.product-detail__score-section,
+.product-detail__flags,
+.product-detail__ingredients {
+  margin-bottom: 20px;
+}
+
+.product-detail__certs h4,
+.product-detail__score-section h4,
+.product-detail__flags h4,
+.product-detail__ingredients h4 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted-teal);
+  margin-bottom: 10px;
+}
+
+.product-detail__cert-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.product-detail__cert-expiry {
+  font-size: 0.75rem;
+  color: var(--mauve-shadow);
+  opacity: 0.6;
+  margin-top: 6px;
+}
+
+.product-detail__score-bar {
+  height: 8px;
+  background: var(--ash-grey);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.product-detail__score-fill {
+  height: 100%;
+  background: var(--gradient-accent);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.product-detail__score-label {
+  font-size: 0.85rem;
+  margin-top: 6px;
+}
+
+.product-detail__flag {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(191, 211, 193, 0.3);
+  font-size: 0.85rem;
+}
+
+.product-detail__flag-dot,
+.product-detail__ingredient-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+
+.product-detail__flag p {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+
+.product-detail__ingredient {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(191, 211, 193, 0.2);
+}
+
+.product-detail__ingredient-name {
+  flex: 1;
+}
+
+.product-detail__ingredient-cas {
+  font-size: 0.7rem;
+  opacity: 0.5;
+}
+
+.product-detail__link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 20px;
+  background: var(--muted-teal);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+
+.product-detail__link:hover {
+  background: var(--mauve-shadow);
+  text-decoration: none;
+}
